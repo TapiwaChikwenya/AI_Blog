@@ -1,0 +1,65 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { isAuthenticated } from '../../middleware/auth.js';
+
+if (!isAuthenticated(Astro.request)) {
+  return Astro.redirect('/admin/login');
+}
+---
+
+<Layout title="Admin Dashboard - AI News Weekly" isAdminPage={true}>
+  <div class="max-w-4xl mx-auto py-8">
+    <h1 class="text-3xl font-bold mb-8">Admin Dashboard</h1>
+    
+    <div class="mb-8">
+      <div class="inline-flex rounded-md shadow-sm" role="group">
+        <button type="button" id="analyticsBtn" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-l-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700">
+          Analytics
+        </button>
+        <button type="button" id="newsletterBtn" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-r-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700">
+          Newsletter
+        </button>
+      </div>
+    </div>
+
+    <div id="analyticsContent" class="hidden">
+      <!-- Analytics content will be loaded here -->
+    </div>
+
+    <div id="newsletterContent" class="hidden">
+      <!-- Newsletter content will be loaded here -->
+    </div>
+  </div>
+
+  <script>
+    const analyticsBtn = document.getElementById('analyticsBtn');
+    const newsletterBtn = document.getElementById('newsletterBtn');
+    const analyticsContent = document.getElementById('analyticsContent');
+    const newsletterContent = document.getElementById('newsletterContent');
+
+    async function loadContent(url, targetElement) {
+      const response = await fetch(url);
+      const html = await response.text();
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(html, 'text/html');
+      const content = doc.querySelector('.max-w-4xl');
+      targetElement.innerHTML = content.innerHTML;
+    }
+
+    analyticsBtn.addEventListener('click', () => {
+      analyticsContent.classList.remove('hidden');
+      newsletterContent.classList.add('hidden');
+      loadContent('/admin/analytics', analyticsContent);
+    });
+
+    newsletterBtn.addEventListener('click', () => {
+      newsletterContent.classList.remove('hidden');
+      analyticsContent.classList.add('hidden');
+      loadContent('/admin/newsletter', newsletterContent);
+    });
+
+    // Load analytics by default
+    loadContent('/admin/analytics', analyticsContent);
+    analyticsContent.classList.remove('hidden');
+  </script>
+</Layout>

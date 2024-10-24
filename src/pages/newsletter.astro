@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
+---
+
+<Layout title="Newsletter - AI News Weekly">
+  <div class="max-w-2xl mx-auto">
+    <h1 class="text-4xl font-bold text-gray-900 mb-6">Subscribe to Our Newsletter</h1>
+    
+    <div class="prose prose-lg mb-8">
+      <p>Join thousands of AI enthusiasts and professionals who receive our carefully curated weekly digest of:</p>
+      <ul>
+        <li>Breaking AI news and developments</li>
+        <li>Industry insights and analysis</li>
+        <li>Research breakthroughs</li>
+        <li>Practical AI applications</li>
+        <li>Upcoming AI events and conferences</li>
+      </ul>
+    </div>
+
+    <NewsletterSignup />
+  </div>
+</Layout>

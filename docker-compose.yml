@@ -1,0 +1,13 @@
+version: '3'
+services:
+  astro-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3500:3500"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: npm run start
+

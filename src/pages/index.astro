@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
+---
+
+<Layout title="AI News Weekly - Latest AI News and Updates">
+  <section class="text-center mb-12">
+    <h1 class="text-4xl font-bold text-gray-900 mb-4">Stay Updated with AI News</h1>
+    <p class="text-xl text-gray-600">Your trusted source for the latest developments in artificial intelligence.</p>
+  </section>
+
+  <section class="mb-12">
+    <h2 class="text-2xl font-bold text-gray-900 mb-6">Latest Stories</h2>
+    <div class="grid gap-8">
+      <article class="bg-white p-6 rounded-lg shadow-sm">
+        <h3 class="text-xl font-semibold mb-2">
+          <a href="/blog/gpt-5-announcement" class="text-gray-900 hover:text-blue-600">GPT-5 Announcement: What to Expect</a>
+        </h3>
+        <p class="text-gray-600 mb-4">The latest insights and predictions about OpenAI's next language model...</p>
+        <div class="text-sm text-gray-500">April 15, 2024</div>
+      </article>
+      <article class="bg-white p-6 rounded-lg shadow-sm">
+        <h3 class="text-xl font-semibold mb-2">
+          <a href="/blog/ai-regulation-updates" class="text-gray-900 hover:text-blue-600">New AI Regulations in Europe</a>
+        </h3>
+        <p class="text-gray-600 mb-4">Understanding the impact of new EU AI regulations on technology companies...</p>
+        <div class="text-sm text-gray-500">April 14, 2024</div>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <NewsletterSignup />
+  </section>
+</Layout>

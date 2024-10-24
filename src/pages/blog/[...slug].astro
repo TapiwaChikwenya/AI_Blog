@@ -1,0 +1,56 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import NewsletterSignup from '../../components/NewsletterSignup.astro';
+import ShareButtons from '../../components/ShareButtons.astro';
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map(post => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+
+if (!post) {
+  return Astro.redirect('/404');
+}
+
+let Content;
+try {
+  const rendered = await post.render();
+  Content = rendered.Content;
+} catch (error) {
+  console.error(`Error rendering post ${post.slug}:`, error);
+  return Astro.redirect('/404');
+}
+---
+
+<Layout title={`${post.data.title} - AI News Weekly`}>
+  <article class="max-w-3xl mx-auto">
+    <header class="mb-8">
+      <h1 class="text-4xl font-bold text-gray-900 mb-4">{post.data.title}</h1>
+      <div class="flex items-center justify-between text-gray-600">
+        <div>
+          <time datetime={post.data.date}>{post.data.date}</time>
+          {post.data.source && (
+            <span> | Source: <a href={post.data.sourceUrl} class="text-purple-600 hover:text-purple-800">{post.data.source}</a></span>
+          )}
+        </div>
+        <ShareButtons title={post.data.title} url={Astro.url} />
+      </div>
+    </header>
+
+    <div class="prose prose-lg prose-purple max-w-none mb-12">
+      <Content />
+    </div>
+
+    <hr class="my-12 border-gray-200" />
+
+    <NewsletterSignup />
+  </article>
+</Layout>

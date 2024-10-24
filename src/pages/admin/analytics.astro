@@ -1,0 +1,43 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getSubscriberStats, getEmailStats } from '../../lib/db.js';
+
+const stats = getSubscriberStats();
+---
+
+<Layout title="Admin Login - AI News Weekly" isAdminPage={true}>
+  <div class="max-w-4xl mx-auto py-8">
+    <h2 class="text-2xl font-bold mb-6">Newsletter Analytics</h2>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h2 class="text-lg font-semibold mb-4">Subscriber Stats</h2>
+        <dl class="space-y-4">
+          <div class="flex justify-between">
+            <dt class="text-gray-600">Total Subscribers</dt>
+            <dd class="font-semibold">{stats.total}</dd>
+          </div>
+          <div class="flex justify-between">
+            <dt class="text-gray-600">Confirmed Subscribers</dt>
+            <dd class="font-semibold">{stats.confirmed}</dd>
+          </div>
+          <div class="flex justify-between">
+            <dt class="text-gray-600">New This Week</dt>
+            <dd class="font-semibold">{stats.lastWeek}</dd>
+          </div>
+          <div class="flex justify-between">
+            <dt class="text-gray-600">Unsubscribed</dt>
+            <dd class="font-semibold">{stats.unsubscribed}</dd>
+          </div>
+        </dl>
+      </div>
+      
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h2 class="text-lg font-semibold mb-4">Growth Rate</h2>
+        <div class="h-64">
+          <!-- Add a chart here using your preferred charting library -->
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

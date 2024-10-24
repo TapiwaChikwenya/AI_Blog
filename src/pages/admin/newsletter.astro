@@ -1,0 +1,94 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getAllSubscribers } from '../../lib/db.js';
+import { isAuthenticated } from '../../middleware/auth.js';
+
+if (!isAuthenticated(Astro.request)) {
+  return Astro.redirect('/admin/login');
+}
+
+const subscribers = getAllSubscribers();
+---
+
+<Layout title="Admin Login - AI News Weekly" isAdminPage={true}>
+  <div class="max-w-4xl mx-auto py-8">
+    <h2 class="text-2xl font-bold mb-6">Send Newsletter</h2>
+    
+    <div class="bg-white p-6 rounded-lg shadow-sm">
+      <form id="newsletter-form" class="space-y-6">
+        <div>
+          <label for="subject" class="block text-sm font-medium text-gray-700">Subject</label>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-purple-500 focus:ring-purple-500"
+            required
+          />
+        </div>
+        
+        <div>
+          <label for="content" class="block text-sm font-medium text-gray-700">Content (HTML)</label>
+          <textarea
+            id="content"
+            name="content"
+            rows="10"
+            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-purple-500 focus:ring-purple-500"
+            required
+          ></textarea>
+        </div>
+        
+        <div>
+          <button
+            type="submit"
+            class="w-full bg-purple-600 text-white py-2 px-4 rounded-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
+          >
+            Send to {subscribers.length} Subscribers
+          </button>
+        </div>
+        
+        <div id="form-message" class="text-sm mt-2 hidden"></div>
+      </form>
+    </div>
+  </div>
+</Layout>
+
+<script>
+  const form = document.getElementById('newsletter-form');
+  const message = document.getElementById('form-message');
+
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const formData = new FormData(form);
+    
+    try {
+      const response = await fetch('/api/send-newsletter', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          subject: formData.get('subject'),
+          content: formData.get('content'),
+        }),
+      });
+      
+      const data = await response.json();
+      
+      message.classList.remove('hidden');
+      
+      if (response.ok) {
+        message.textContent = 'Newsletter sent successfully!';
+        message.className = 'text-sm mt-2 text-green-600';
+        form.reset();
+      } else {
+        message.textContent = data.error || 'Failed to send newsletter.';
+        message.className = 'text-sm mt-2 text-red-600';
+      }
+    } catch (error) {
+      message.classList.remove('hidden');
+      message.textContent = 'Failed to send newsletter.';
+      message.className = 'text-sm mt-2 text-red-600';
+    }
+  });
+</script>

@@ -1,0 +1,27 @@
+---
+interface Props {
+  title: string;
+  slug: string;
+  excerpt: string;
+  date: string;
+}
+
+const { title, slug, excerpt, date } = Astro.props;
+---
+
+<article class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow">
+  <div class="p-6">
+    <h2 class="text-2xl font-semibold mb-2">
+      <a href={`/blog/${slug}`} class="text-purple-900 hover:text-purple-700">
+        {title}
+      </a>
+    </h2>
+    <p class="text-gray-600 mb-4">{excerpt}</p>
+    <div class="flex items-center text-sm text-purple-600">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+      </svg>
+      {date}
+    </div>
+  </div>
+</article>

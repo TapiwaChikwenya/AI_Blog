@@ -1,0 +1,47 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { confirmSubscriber, getSubscriberByToken } from '../lib/db.js';
+
+const token = Astro.url.searchParams.get('token');
+let confirmed = false;
+let error = null;
+
+if (token) {
+  const subscriber = getSubscriberByToken(token);
+  if (subscriber) {
+    confirmed = confirmSubscriber(token);
+  } else {
+    error = 'Invalid or expired confirmation link';
+  }
+}
+---
+
+<Layout title="Confirm Subscription - AI News Weekly">
+  <div class="max-w-2xl mx-auto py-16 px-4">
+    <div class="text-center">
+      {confirmed ? (
+        <>
+          <h1 class="text-3xl font-bold text-green-600 mb-4">Subscription Confirmed!</h1>
+          <p class="text-gray-600 mb-8">Thank you for confirming your subscription to AI News Weekly.</p>
+          <a
+            href="/"
+            class="inline-block bg-purple-600 text-white px-6 py-3 rounded-md hover:bg-purple-700 transition-colors"
+          >
+            Return to Homepage
+          </a>
+        </>
+      ) : (
+        <>
+          <h1 class="text-3xl font-bold text-red-600 mb-4">Confirmation Failed</h1>
+          <p class="text-gray-600 mb-8">{error || 'Something went wrong. Please try subscribing again.'}</p>
+          <a
+            href="/newsletter"
+            class="inline-block bg-purple-600 text-white px-6 py-3 rounded-md hover:bg-purple-700 transition-colors"
+          >
+            Subscribe Again
+          </a>
+        </>
+      )}
+    </div>
+  </div>
+</Layout>

@@ -4,10 +4,12 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    image: ai_blog-astro-app # Specify the image name here
     ports:
       - "3500:3500"
     volumes:
       - .:/app
       - /app/node_modules
     command: npm run start
+
 

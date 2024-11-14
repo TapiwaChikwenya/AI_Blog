@@ -1,142 +1,142 @@
 export const posts = [
   {
-    "slug": "2024-10-23-google-deepmind-is-making-its-ai-text-watermark-open-source",
-    "title": "Google DeepMind is making its AI text watermark open source",
-    "date": "October 23, 2024",
+    "slug": "2024-11-04-xai-woos-developers-with-dollar25month-worth-of-api-credits-support-for-openai-anthropic-sdks",
+    "title": "xAI woos developers with $25/month worth of API credits, support for OpenAI, Anthropic SDKs",
+    "date": "November 4, 2024",
+    "source": "VentureBeat AI",
+    "excerpt": "It doesn't sound like much coming from the world's wealthiest man and multi-billionaire, and it's not really on a per user basis...."
+  },
+  {
+    "slug": "2024-11-04-uc-san-diego-tsinghua-university-researchers-just-made-ai-way-better-at-knowing-when-to-ask-for-help",
+    "title": "UC San Diego, Tsinghua University researchers just made AI way better at knowing when to ask for help",
+    "date": "November 4, 2024",
+    "source": "VentureBeat AI",
+    "excerpt": "UC San Diego and Tsinghua University researchers develop breakthrough AI method that teaches small language models when to use tools versus internal knowledge, ..."
+  },
+  {
+    "slug": "2024-11-04-nvidia-ai-blueprint-makes-it-easy-for-any-devs-to-build-automated-agents-that-analyze-video",
+    "title": "Nvidia AI Blueprint makes it easy for any devs to build automated agents that analyze video",
+    "date": "November 4, 2024",
+    "source": "VentureBeat AI",
+    "excerpt": "Nvidia announced that its Nvidia AI Blueprint will make it easy for developers in any industry to build AI agents to analyze video and image content...."
+  },
+  {
+    "slug": "2024-11-03-enter-the-whisperverse-how-ai-voice-agents-will-guide-us-through-our-days",
+    "title": "Enter the ‘Whisperverse’: How AI voice agents will guide us through our days",
+    "date": "November 3, 2024",
+    "source": "VentureBeat AI",
+    "excerpt": "Within the next few years, an AI-powered voice will burrow into your ears and take up residence inside your head...."
+  },
+  {
+    "slug": "2024-11-02-why-multi-agent-ai-tackles-complexities-llms-cant",
+    "title": "Why multi-agent AI tackles complexities LLMs can’t",
+    "date": "November 2, 2024",
+    "source": "VentureBeat AI",
+    "excerpt": "While AGI and fully autonomous systems are still on the horizon, multi-agents will bridge the current gap between LLMs and AGI...."
+  },
+  {
+    "slug": "2024-11-02-meta-unveils-ai-tools-to-give-robots-a-human-touch-in-physical-world",
+    "title": "Meta unveils AI tools to give robots a human touch in physical world",
+    "date": "November 2, 2024",
+    "source": "VentureBeat AI",
+    "excerpt": "Meta unveils three tools and benchmarks to enhance robot touch perception, dexterity, and human-robot collaboration in real-world settings...."
+  },
+  {
+    "slug": "2024-11-01-ai-on-your-smartphone-hugging-faces-smollm2-brings-powerful-models-to-the-palm-of-your-hand",
+    "title": "AI on your smartphone? Hugging Face’s SmolLM2 brings powerful models to the palm of your hand",
+    "date": "November 1, 2024",
+    "source": "VentureBeat AI",
+    "excerpt": "Hugging Face launches SmolLM2, a new family of compact AI language models that deliver impressive performance on mobile and edge devices, outperforming larger m..."
+  },
+  {
+    "slug": "2024-11-01-the-shows-not-over-2024-sees-big-boost-to-ai-investment",
+    "title": "The show’s not over: 2024 sees big boost to AI investment",
+    "date": "November 1, 2024",
+    "source": "VentureBeat AI",
+    "excerpt": "AI investment continues to show resiliency, driving deal volumes to 1,245 in Q3, 24, a level not seen since Q1, 22...."
+  },
+  {
+    "slug": "2024-11-01-devrev-raises-dollar1008-million-in-series-a-funding-and-becomes-an-ai-unicorn-at-a-dollar115-billion-valuation",
+    "title": "DevRev raises $100.8 million in Series A funding and becomes an AI unicorn at a $1.15 billion valuation",
+    "date": "November 1, 2024",
+    "source": "VentureBeat AI",
+    "excerpt": "Following its successful Series A funding, DevRev drives forward its mission to revolutionize customer support and product development...."
+  },
+  {
+    "slug": "2024-11-01-how-gaming-can-get-back-to-balanced-growth-or-the-deanbeat",
+    "title": "How gaming can get back to balanced growth | The DeanBeat",
+    "date": "November 1, 2024",
+    "source": "VentureBeat AI",
+    "excerpt": "This week, we had 42 sessions and 97 speakers at our GamesBeat Next 2024 event. Thank you all for coming and listening...."
+  },
+  {
+    "slug": "2024-11-01-runway-goes-3d-with-new-ai-video-camera-controls-for-gen-3-alpha-turbo",
+    "title": "Runway goes 3D with new AI video camera controls for Gen-3 Alpha Turbo",
+    "date": "November 1, 2024",
+    "source": "VentureBeat AI",
+    "excerpt": "Realistically puts creators and their viewers into a fully realized, seemingly 3D world — like they are on a real movie set or on location...."
+  },
+  {
+    "slug": "2024-10-31-meta-makes-its-mobilellm-open-for-researchers-posting-full-weights",
+    "title": "Meta makes its MobileLLM open for researchers, posting full weights",
+    "date": "October 31, 2024",
+    "source": "VentureBeat AI",
+    "excerpt": "Developers and researchers interested in testing MobileLLM can now access the models on Hugging Face, fully integrated with the Transformers library...."
+  },
+  {
+    "slug": "2024-10-31-this-ai-generated-version-of-minecraft-may-represent-the-future-of-real-time-video-generation",
+    "title": "This AI-generated version of Minecraft may represent the future of real-time video generation",
+    "date": "October 31, 2024",
     "source": "MIT Technology Review",
-    "excerpt": "Google DeepMind has developed a tool for identifying AI-generated text and is making it available open source.  The tool, called SynthID, is part of a larger fa..."
+    "excerpt": "When you walk around in a version of the video game Minecraft from the AI companies Decart and Etched, it feels a little off. Sure, you can move forward, cut do..."
   },
   {
-    "slug": "2024-10-23-the-global-view-of-gaming-from-a-huge-external-development-firm-or-gilles-langourieux-interview",
-    "title": "The global view of gaming from a huge external development firm | Gilles Langourieux interview",
-    "date": "October 23, 2024",
+    "slug": "2024-10-31-google-just-gave-its-ai-access-to-search-hours-before-openai-launched-chatgpt-search",
+    "title": "Google just gave its AI access to Search, hours before OpenAI launched ChatGPT Search",
+    "date": "October 31, 2024",
     "source": "VentureBeat AI",
-    "excerpt": "<p>Founded in 2004, Virtuos has grown into a big company when it comes to the production of games. As an external developer, Virtuos’ team of 3,800 professional..."
+    "excerpt": "Google launches real-time search integration for Gemini AI platform at $35 per 1,000 queries, while OpenAI debuts ChatGPT Search on the same day, setting up a m..."
   },
   {
-    "slug": "2024-10-23-introducing-the-ai-hype-index",
-    "title": "Introducing: The AI Hype Index",
-    "date": "October 23, 2024",
+    "slug": "2024-10-31-the-great-ai-masquerade-when-automation-wears-an-agent-costume",
+    "title": "The great AI masquerade: When automation wears an agent costume",
+    "date": "October 31, 2024",
+    "source": "VentureBeat AI",
+    "excerpt": "Most of today's AI \"agents\" are really automation systems whose interfaces are “agentic.\" The trick is understanding what's behind the mask...."
+  },
+  {
+    "slug": "2024-10-31-openai-turns-chatgpt-into-a-search-engine-aims-directly-at-google",
+    "title": "OpenAI turns ChatGPT into a search engine, aims directly at Google",
+    "date": "October 31, 2024",
+    "source": "VentureBeat AI",
+    "excerpt": "OpenAI launches ChatGPT web search to rival Google, partners with major publishers, and invests $5 billion in custom AI chips while Microsoft takes $1.5B quarte..."
+  },
+  {
+    "slug": "2024-10-31-openai-brings-a-new-web-search-tool-to-chatgpt",
+    "title": "OpenAI brings a new web search tool to ChatGPT",
+    "date": "October 31, 2024",
     "source": "MIT Technology Review",
-    "excerpt": "There’s no denying that the AI industry moves fast. Each week brings a bold new announcement, product release, or lofty claim that pushes the bounds of what we ..."
+    "excerpt": "ChatGPT can now search the web for up-to-date answers to a user’s queries, OpenAI announced today.  Until now, ChatGPT was mostly restricted to generating answe..."
   },
   {
-    "slug": "2024-10-23-the-algorithms-around-us",
-    "title": "The algorithms around us",
-    "date": "October 23, 2024",
+    "slug": "2024-10-31-microsofts-agentic-ai-tool-omniparser-rockets-up-the-open-source-charts",
+    "title": "Microsoft’s agentic AI tool OmniParser rockets up the open source charts",
+    "date": "October 31, 2024",
+    "source": "VentureBeat AI",
+    "excerpt": "From prototype to popularity, here's why Microsoft’s new open source OmniParser model is trending on Hugging Face...."
+  },
+  {
+    "slug": "2024-10-31-noma-arrives-to-provide-security-from-data-storage-to-deployment-for-enterprise-ai-solutions",
+    "title": "Noma arrives to provide security from data storage to deployment for enterprise AI solutions",
+    "date": "October 31, 2024",
+    "source": "VentureBeat AI",
+    "excerpt": "Noma’s platform is designed to safeguard every stage of AI model development and operation, incorporating security tools...."
+  },
+  {
+    "slug": "2024-10-31-chasing-ais-value-in-life-sciences",
+    "title": "Chasing AI’s value in life sciences",
+    "date": "October 31, 2024",
     "source": "MIT Technology Review",
-    "excerpt": "A metronome ticks. A record spins. And as a feel-good pop track plays, a giant compactor slowly crushes a Jenga tower of material creations. Paint cans burst. C..."
-  },
-  {
-    "slug": "2024-10-22-cohere-adds-vision-to-its-rag-search-capabilities",
-    "title": "Cohere adds vision to its RAG search capabilities",
-    "date": "October 22, 2024",
-    "source": "VentureBeat AI",
-    "excerpt": "Cohere enhances its embeddings model Embed 3 to now be multimodal, letting enterprises search images on their databases...."
-  },
-  {
-    "slug": "2024-10-22-this-is-a-game-changer-runway-releases-new-ai-facial-expression-motion-capture-feature-act-one",
-    "title": "‘This is a game changer’: Runway releases new AI facial expression motion capture feature Act-One",
-    "date": "October 22, 2024",
-    "source": "VentureBeat AI",
-    "excerpt": "The new feature includes safeguards to detect and block attempts to generate content featuring public figures without authorization...."
-  },
-  {
-    "slug": "2024-10-22-qualcomm-unveils-snapdragon-elite-platforms-for-automotive",
-    "title": "Qualcomm unveils Snapdragon Elite platforms for automotive",
-    "date": "October 22, 2024",
-    "source": "VentureBeat AI",
-    "excerpt": "Qualcomm unveiled its Snapdragon Elite platforms for automotive applications at its Snapdragon Summit event today...."
-  },
-  {
-    "slug": "2024-10-22-ai-startup-ideogram-launches-infinite-canvas-for-manipulating-combining-generated-images",
-    "title": "AI startup Ideogram launches infinite Canvas for manipulating, combining generated images",
-    "date": "October 22, 2024",
-    "source": "VentureBeat AI",
-    "excerpt": "Users can spread newly generated images out, compare them to older ones, resize and reorder them at will, and even combine two with AI...."
-  },
-  {
-    "slug": "2024-10-22-stable-diffusion-35-debuts-as-stability-ai-aims-to-improve-open-models-for-generating-images",
-    "title": "Stable Diffusion 3.5 debuts as Stability AI aims to improve open models for generating images",
-    "date": "October 22, 2024",
-    "source": "VentureBeat AI",
-    "excerpt": "Stability AI is looking to retake the lead in text to image generative AI with Stable Diffusion 3.5...."
-  },
-  {
-    "slug": "2024-10-22-anthropics-new-ai-can-use-computers-like-a-human-redefining-automation-for-enterprises",
-    "title": "Anthropic’s new AI can use computers like a human, redefining automation for enterprises",
-    "date": "October 22, 2024",
-    "source": "VentureBeat AI",
-    "excerpt": "Anthropic's new AI, Claude 3.5 Sonnet, introduces groundbreaking \"Computer Use\" capabilities, allowing AI to interact with applications and complete complex tas..."
-  },
-  {
-    "slug": "2024-10-22-asana-ai-studio-now-offers-ai-agent-creation-for-workflow-management",
-    "title": "Asana AI Studio now offers AI agent creation for workflow management",
-    "date": "October 22, 2024",
-    "source": "VentureBeat AI",
-    "excerpt": "Work management platform Asana said multiple AI agents on a workflow system gets rid of \"busy work.\"..."
-  },
-  {
-    "slug": "2024-10-22-generative-ai-grows-17percent-in-2024-but-data-quality-plummets-key-findings-from-appens-state-of-ai-report",
-    "title": "Generative AI grows 17% in 2024, but data quality plummets: Key findings from Appen’s State of AI Report",
-    "date": "October 22, 2024",
-    "source": "VentureBeat AI",
-    "excerpt": "Appen’s 2024 State of AI report reveals surging generative AI adoption, but companies face growing challenges with data quality, bottlenecks, and declining ROI ..."
-  },
-  {
-    "slug": "2024-10-22-crewai-now-lets-you-build-fleets-of-enterprise-ai-agents",
-    "title": "CrewAI now lets you build fleets of enterprise AI agents",
-    "date": "October 22, 2024",
-    "source": "VentureBeat AI",
-    "excerpt": "CrewAI is one of the most popular AI agent frameworks, enabling users to quickly and simply build, deploy and iterate multi-agent “crews.”..."
-  },
-  {
-    "slug": "2024-10-22-ai-video-startup-genmo-launches-mochi-1-an-open-source-rival-to-runway-kling-and-others",
-    "title": "AI video startup Genmo launches Mochi 1, an open source rival to Runway, Kling, and others",
-    "date": "October 22, 2024",
-    "source": "VentureBeat AI",
-    "excerpt": "Available under the permissive Apache 2.0 license, Mochi 1 offers users free access to cutting-edge video generation capabilities......"
-  },
-  {
-    "slug": "2024-10-22-dotmatics-aims-to-speed-drug-development-break-data-silos-with-geneious-luma",
-    "title": "Dotmatics aims to speed drug development, break data silos with Geneious Luma",
-    "date": "October 22, 2024",
-    "source": "VentureBeat AI",
-    "excerpt": "It leverages AI and machine learning to automate workflows, enabling scientists to manage complex biological data with greater accuracy...."
-  },
-  {
-    "slug": "2024-10-22-netvrk-launches-its-ai-powered-metaverse-with-unreal-engine-5-graphics",
-    "title": "NetVRk launches its AI-powered metaverse with Unreal Engine 5 graphics",
-    "date": "October 22, 2024",
-    "source": "VentureBeat AI",
-    "excerpt": "NetVRk, a cross-platform AI and Web3-driven metaverse, unveiled its platform for building virtual worlds with Unreal Engine 5...."
-  },
-  {
-    "slug": "2024-10-22-would-you-trust-ai-to-mediate-an-argument",
-    "title": "Would you trust AI to mediate an argument?",
-    "date": "October 22, 2024",
-    "source": "MIT Technology Review",
-    "excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. I’ve recently been fee..."
-  },
-  {
-    "slug": "2024-10-21-elon-musks-xai-launches-api-letting-third-party-developers-build-atop-grok",
-    "title": "Elon Musk’s xAI launches API, letting third-party developers build atop Grok",
-    "date": "October 21, 2024",
-    "source": "VentureBeat AI",
-    "excerpt": "Attention, developers: you can now get your hands on Elon Musk's Grok 2 multimodal language model through his startup xAI's new API...."
-  },
-  {
-    "slug": "2024-10-21-qualcomm-unveils-snapdragon-8-elite-as-worlds-fastest-mobile-cpu",
-    "title": "Qualcomm unveils Snapdragon 8 Elite as world’s fastest mobile CPU",
-    "date": "October 21, 2024",
-    "source": "VentureBeat AI",
-    "excerpt": "Qualcomm unveiled its Snapdragon 8 Elite, which it claimed is the world's fastest mobile centralized processing unit (CPU)...."
-  },
-  {
-    "slug": "2024-10-21-microsofts-new-ai-agents-set-to-shake-up-enterprise-software-sparking-new-battle-with-salesforce",
-    "title": "Microsoft’s new AI agents set to shake up enterprise software, sparking new battle with Salesforce",
-    "date": "October 21, 2024",
-    "source": "VentureBeat AI",
-    "excerpt": "Microsoft launches autonomous AI agents for Dynamics 365, challenging Salesforce's Agentforce in the race to dominate enterprise AI and reshape the future of wo..."
+    "excerpt": "Inspired by an unprecedented opportunity, the life sciences sector has gone all in on AI. For example, in 2023, Pfizer introduced an internal generative AI plat..."
   }
 ];

@@ -10,7 +10,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "setup-db": "node scripts/setup-db.js",
-    "scrape": "node scripts/scrape-news.js"
+    "scrape": "node scripts/scrape-news.js",
+    "schedule": "node scripts/scheduler.js"
   },
   "dependencies": {
     "@astrojs/mdx": "^2.1.1",
@@ -23,6 +24,7 @@
     "cheerio": "^1.0.0-rc.12",
     "date-fns": "^3.3.1",
     "jsonwebtoken": "^9.0.0",
+    "node-cron": "^3.0.3",
     "node-fetch": "^3.3.2",
     "rss-parser": "^3.13.0",
     "sanitize-html": "^2.12.1",

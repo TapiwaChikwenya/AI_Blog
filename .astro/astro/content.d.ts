@@ -319,6 +319,146 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
+"2024-10-31-chasing-ais-value-in-life-sciences.mdx": {
+	id: "2024-10-31-chasing-ais-value-in-life-sciences.mdx";
+  slug: "2024-10-31-chasing-ais-value-in-life-sciences";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-10-31-google-just-gave-its-ai-access-to-search-hours-before-openai-launched-chatgpt-search.mdx": {
+	id: "2024-10-31-google-just-gave-its-ai-access-to-search-hours-before-openai-launched-chatgpt-search.mdx";
+  slug: "2024-10-31-google-just-gave-its-ai-access-to-search-hours-before-openai-launched-chatgpt-search";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-10-31-meta-makes-its-mobilellm-open-for-researchers-posting-full-weights.mdx": {
+	id: "2024-10-31-meta-makes-its-mobilellm-open-for-researchers-posting-full-weights.mdx";
+  slug: "2024-10-31-meta-makes-its-mobilellm-open-for-researchers-posting-full-weights";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-10-31-microsofts-agentic-ai-tool-omniparser-rockets-up-the-open-source-charts.mdx": {
+	id: "2024-10-31-microsofts-agentic-ai-tool-omniparser-rockets-up-the-open-source-charts.mdx";
+  slug: "2024-10-31-microsofts-agentic-ai-tool-omniparser-rockets-up-the-open-source-charts";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-10-31-noma-arrives-to-provide-security-from-data-storage-to-deployment-for-enterprise-ai-solutions.mdx": {
+	id: "2024-10-31-noma-arrives-to-provide-security-from-data-storage-to-deployment-for-enterprise-ai-solutions.mdx";
+  slug: "2024-10-31-noma-arrives-to-provide-security-from-data-storage-to-deployment-for-enterprise-ai-solutions";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-10-31-openai-brings-a-new-web-search-tool-to-chatgpt.mdx": {
+	id: "2024-10-31-openai-brings-a-new-web-search-tool-to-chatgpt.mdx";
+  slug: "2024-10-31-openai-brings-a-new-web-search-tool-to-chatgpt";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-10-31-openai-turns-chatgpt-into-a-search-engine-aims-directly-at-google.mdx": {
+	id: "2024-10-31-openai-turns-chatgpt-into-a-search-engine-aims-directly-at-google.mdx";
+  slug: "2024-10-31-openai-turns-chatgpt-into-a-search-engine-aims-directly-at-google";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-10-31-the-great-ai-masquerade-when-automation-wears-an-agent-costume.mdx": {
+	id: "2024-10-31-the-great-ai-masquerade-when-automation-wears-an-agent-costume.mdx";
+  slug: "2024-10-31-the-great-ai-masquerade-when-automation-wears-an-agent-costume";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-10-31-this-ai-generated-version-of-minecraft-may-represent-the-future-of-real-time-video-generation.mdx": {
+	id: "2024-10-31-this-ai-generated-version-of-minecraft-may-represent-the-future-of-real-time-video-generation.mdx";
+  slug: "2024-10-31-this-ai-generated-version-of-minecraft-may-represent-the-future-of-real-time-video-generation";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-01-ai-on-your-smartphone-hugging-faces-smollm2-brings-powerful-models-to-the-palm-of-your-hand.mdx": {
+	id: "2024-11-01-ai-on-your-smartphone-hugging-faces-smollm2-brings-powerful-models-to-the-palm-of-your-hand.mdx";
+  slug: "2024-11-01-ai-on-your-smartphone-hugging-faces-smollm2-brings-powerful-models-to-the-palm-of-your-hand";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-01-devrev-raises-dollar1008-million-in-series-a-funding-and-becomes-an-ai-unicorn-at-a-dollar115-billion-valuation.mdx": {
+	id: "2024-11-01-devrev-raises-dollar1008-million-in-series-a-funding-and-becomes-an-ai-unicorn-at-a-dollar115-billion-valuation.mdx";
+  slug: "2024-11-01-devrev-raises-dollar1008-million-in-series-a-funding-and-becomes-an-ai-unicorn-at-a-dollar115-billion-valuation";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-01-how-gaming-can-get-back-to-balanced-growth-or-the-deanbeat.mdx": {
+	id: "2024-11-01-how-gaming-can-get-back-to-balanced-growth-or-the-deanbeat.mdx";
+  slug: "2024-11-01-how-gaming-can-get-back-to-balanced-growth-or-the-deanbeat";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-01-runway-goes-3d-with-new-ai-video-camera-controls-for-gen-3-alpha-turbo.mdx": {
+	id: "2024-11-01-runway-goes-3d-with-new-ai-video-camera-controls-for-gen-3-alpha-turbo.mdx";
+  slug: "2024-11-01-runway-goes-3d-with-new-ai-video-camera-controls-for-gen-3-alpha-turbo";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-01-the-shows-not-over-2024-sees-big-boost-to-ai-investment.mdx": {
+	id: "2024-11-01-the-shows-not-over-2024-sees-big-boost-to-ai-investment.mdx";
+  slug: "2024-11-01-the-shows-not-over-2024-sees-big-boost-to-ai-investment";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-02-meta-unveils-ai-tools-to-give-robots-a-human-touch-in-physical-world.mdx": {
+	id: "2024-11-02-meta-unveils-ai-tools-to-give-robots-a-human-touch-in-physical-world.mdx";
+  slug: "2024-11-02-meta-unveils-ai-tools-to-give-robots-a-human-touch-in-physical-world";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-02-why-multi-agent-ai-tackles-complexities-llms-cant.mdx": {
+	id: "2024-11-02-why-multi-agent-ai-tackles-complexities-llms-cant.mdx";
+  slug: "2024-11-02-why-multi-agent-ai-tackles-complexities-llms-cant";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-03-enter-the-whisperverse-how-ai-voice-agents-will-guide-us-through-our-days.mdx": {
+	id: "2024-11-03-enter-the-whisperverse-how-ai-voice-agents-will-guide-us-through-our-days.mdx";
+  slug: "2024-11-03-enter-the-whisperverse-how-ai-voice-agents-will-guide-us-through-our-days";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-04-nvidia-ai-blueprint-makes-it-easy-for-any-devs-to-build-automated-agents-that-analyze-video.mdx": {
+	id: "2024-11-04-nvidia-ai-blueprint-makes-it-easy-for-any-devs-to-build-automated-agents-that-analyze-video.mdx";
+  slug: "2024-11-04-nvidia-ai-blueprint-makes-it-easy-for-any-devs-to-build-automated-agents-that-analyze-video";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-04-uc-san-diego-tsinghua-university-researchers-just-made-ai-way-better-at-knowing-when-to-ask-for-help.mdx": {
+	id: "2024-11-04-uc-san-diego-tsinghua-university-researchers-just-made-ai-way-better-at-knowing-when-to-ask-for-help.mdx";
+  slug: "2024-11-04-uc-san-diego-tsinghua-university-researchers-just-made-ai-way-better-at-knowing-when-to-ask-for-help";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-04-xai-woos-developers-with-dollar25month-worth-of-api-credits-support-for-openai-anthropic-sdks.mdx": {
+	id: "2024-11-04-xai-woos-developers-with-dollar25month-worth-of-api-credits-support-for-openai-anthropic-sdks.mdx";
+  slug: "2024-11-04-xai-woos-developers-with-dollar25month-worth-of-api-credits-support-for-openai-anthropic-sdks";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
 };
 
 	};

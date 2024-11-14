@@ -21,8 +21,11 @@ RUN npm run build
 # Initialize the database and run the scraper
 RUN npm run setup-db && npm run scrape
 
+#RUN npm run schedule
+
 # Expose the port the app runs on
 EXPOSE 3500
 
 # Command to run the application
-CMD ["npm", "run", "start"]
+#CMD ["npm", "run", "start"]
+CMD ["node", "src/index.js"]

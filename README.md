@@ -79,5 +79,6 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 8. **Building the image locally**
 
    ```bash
-   docker-compose build
+  docker buildx build --platform linux/amd64,linux/arm64 .
+
    ```

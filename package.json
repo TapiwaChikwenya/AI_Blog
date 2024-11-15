@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^2.1.1",
+    "@astrojs/node": "^8.3.4",
     "@astrojs/tailwind": "^5.1.0",
     "@sendgrid/mail": "^7.7.0",
     "@tailwindcss/typography": "^0.5.10",
@@ -23,6 +24,7 @@
     "better-sqlite3": "^9.4.3",
     "cheerio": "^1.0.0-rc.12",
     "date-fns": "^3.3.1",
+    "express": "^4.21.1",
     "jsonwebtoken": "^9.0.0",
     "node-cron": "^3.0.3",
     "node-fetch": "^3.3.2",

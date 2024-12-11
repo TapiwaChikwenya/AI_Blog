@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "astro dev --host 0.0.0.0 --port 3500",
-    "start": "astro dev --host 0.0.0.0 --port 3500",
+    "start": "node src/index.js",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
@@ -22,7 +22,7 @@
     "astro": "^4.16.7",
     "bcrypt": "^5.1.0",
     "better-sqlite3": "^9.4.3",
-    "cheerio": "^1.0.0-rc.12",
+    "cheerio": "^1.0.0",
     "date-fns": "^3.3.1",
     "express": "^4.21.1",
     "jsonwebtoken": "^9.0.0",

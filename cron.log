@@ -1,0 +1,547 @@
+2024-12-01T23:15:25.020Z: Scheduler started
+2024-12-01T23:16:00.239Z: Test cron running - checking scheduler is active
+2024-12-01T23:17:00.576Z: Test cron running - checking scheduler is active
+2024-12-01T23:18:00.922Z: Test cron running - checking scheduler is active
+2024-12-01T23:19:00.266Z: Test cron running - checking scheduler is active
+2024-12-01T23:20:00.582Z: Test cron running - checking scheduler is active
+2024-12-01T23:21:00.950Z: Test cron running - checking scheduler is active
+2024-12-01T23:22:00.488Z: Test cron running - checking scheduler is active
+2024-12-01T23:23:00.030Z: Test cron running - checking scheduler is active
+2024-12-01T23:24:00.563Z: Test cron running - checking scheduler is active
+2024-12-01T23:25:00.065Z: Test cron running - checking scheduler is active
+2024-12-01T23:26:00.562Z: Test cron running - checking scheduler is active
+2024-12-01T23:27:00.057Z: Test cron running - checking scheduler is active
+2024-12-01T23:28:00.564Z: Test cron running - checking scheduler is active
+2024-12-01T23:29:00.071Z: Test cron running - checking scheduler is active
+2024-12-01T23:30:00.553Z: Test cron running - checking scheduler is active
+2024-12-01T23:31:00.075Z: Test cron running - checking scheduler is active
+2024-12-01T23:32:00.637Z: Test cron running - checking scheduler is active
+2024-12-01T23:33:00.162Z: Test cron running - checking scheduler is active
+2024-12-01T23:34:00.733Z: Test cron running - checking scheduler is active
+2024-12-01T23:35:00.232Z: Test cron running - checking scheduler is active
+2024-12-01T23:36:00.792Z: Test cron running - checking scheduler is active
+2024-12-01T23:37:00.322Z: Test cron running - checking scheduler is active
+2024-12-01T23:38:00.887Z: Test cron running - checking scheduler is active
+2024-12-01T23:39:00.449Z: Test cron running - checking scheduler is active
+2024-12-01T23:40:00.015Z: Test cron running - checking scheduler is active
+2024-12-01T23:41:00.548Z: Test cron running - checking scheduler is active
+2024-12-01T23:42:00.112Z: Test cron running - checking scheduler is active
+2024-12-01T23:43:00.680Z: Test cron running - checking scheduler is active
+2024-12-01T23:44:00.224Z: Test cron running - checking scheduler is active
+2024-12-01T23:45:00.782Z: Test cron running - checking scheduler is active
+2024-12-01T23:46:00.347Z: Test cron running - checking scheduler is active
+2024-12-01T23:47:00.893Z: Test cron running - checking scheduler is active
+2024-12-01T23:48:00.426Z: Test cron running - checking scheduler is active
+2024-12-01T23:49:00.958Z: Test cron running - checking scheduler is active
+2024-12-01T23:50:00.463Z: Test cron running - checking scheduler is active
+2024-12-01T23:51:00.986Z: Test cron running - checking scheduler is active
+2024-12-01T23:52:00.506Z: Test cron running - checking scheduler is active
+2024-12-01T23:53:00.065Z: Test cron running - checking scheduler is active
+2024-12-01T23:54:00.525Z: Test cron running - checking scheduler is active
+2024-12-01T23:55:00.033Z: Test cron running - checking scheduler is active
+2024-12-01T23:56:00.548Z: Test cron running - checking scheduler is active
+2024-12-01T23:57:00.041Z: Test cron running - checking scheduler is active
+2024-12-01T23:58:00.630Z: Test cron running - checking scheduler is active
+2024-12-01T23:59:00.145Z: Test cron running - checking scheduler is active
+2024-12-02T00:00:00.748Z: Running the scheduled scrape task...
+2024-12-02T00:00:00.754Z: Test cron running - checking scheduler is active
+2024-12-02T00:00:02.561Z: stdout: 
+> @example/basics@0.0.1 scrape
+> node scripts/scrape-news.js
+
+Starting news scraping...
+Fetching from MIT Technology Review...
+Fetching from VentureBeat AI...
+Fetching from Google AI Blog...
+Creating 20 MDX files...
+Created post: 2024-12-01-the-end-of-ai-scaling-may-not-be-nigh-heres-whats-next
+Created post: 2024-11-30-ai-that-clicks-for-you-microsofts-research-points-to-the-future-of-gui-automation
+Created post: 2024-11-30-every-millisecond-matters-why-a-formula-e-team-picked-cato-networks-to-connect-its-pitlane
+Created post: 2024-11-29-alibaba-releases-qwen-with-questions-an-open-reasoning-model-that-beats-o1-preview
+Created post: 2024-11-28-openai-faces-critical-test-as-chinese-models-close-the-gap-in-ai-leadership
+Created post: 2024-11-27-alibaba-researchers-unveil-marco-o1-an-llm-with-advanced-reasoning-capabilities
+Created post: 2024-11-27-hugging-faces-smolvlm-could-cut-ai-costs-for-businesses-by-a-huge-margin
+Created post: 2024-11-27-these-ai-minecraft-characters-did-weirdly-human-stuff-all-on-their-own
+Created post: 2024-11-27-trumps-ai-czar-and-the-wild-west-of-ai-regulation-strategies-for-enterprises-to-navigate-the-chaos
+Created post: 2024-11-26-anthropic-bets-on-personalization-in-the-ai-arms-race-with-new-styles-feature
+Created post: 2024-11-26-we-need-to-start-wrestling-with-the-ethics-of-ai-agents
+Created post: 2024-11-26-the-way-we-measure-progress-in-ai-is-terrible
+Created post: 2024-11-26-anthropic-releases-model-context-protocol-to-standardize-ai-data-integration
+Created post: 2024-11-25-thomson-reuters-cocounsel-redefines-legal-ai-with-openais-o1-mini-model
+Created post: 2024-11-25-luma-expands-dream-machine-ai-video-model-into-full-creative-platform-mobile-app
+Created post: 2024-11-24-getting-started-with-ai-agents-part-2-autonomy-safeguards-and-pitfalls
+Created post: 2024-11-24-microsofts-10-new-ai-agents-strengthen-its-enterprise-automation-lead
+Created post: 2024-11-23-getting-started-with-ai-agents-part-1-capturing-processes-roles-and-connections
+Created post: 2024-11-23-ai2-closes-the-gap-between-closed-source-and-open-source-post-training
+Created post: 2024-11-22-chinese-researchers-unveil-llava-o1-to-challenge-openais-o1-model
+Index file written to: /app/src/content/blog/_index.js
+Files in blog directory: [
+  '2024-10-20-ibm-debuts-open-source-granite-30-llms-for-enterprise-ai.mdx',
+  '2024-10-20-the-ai-edge-in-cybersecurity-predictive-tools-aim-to-slash-response-times.mdx',
+  '2024-10-21-elon-musks-xai-launches-api-letting-third-party-developers-build-atop-grok.mdx',
+  '2024-10-21-gartner-2025-will-see-the-rise-of-ai-agents-and-other-top-trends.mdx',
+  '2024-10-21-investing-in-ai-to-build-next-generation-infrastructure.mdx',
+  '2024-10-21-microsofts-new-ai-agents-set-to-shake-up-enterprise-software-sparking-new-battle-with-salesforce.mdx',
+  '2024-10-21-qualcomm-unveils-snapdragon-8-elite-as-worlds-fastest-mobile-cpu.mdx',
+  '2024-10-22-ai-startup-ideogram-launches-infinite-canvas-for-manipulating-combining-generated-images.mdx',
+  '2024-10-22-ai-video-startup-genmo-launches-mochi-1-an-open-source-rival-to-runway-kling-and-others.mdx',
+  '2024-10-22-anthropics-new-ai-can-use-computers-like-a-human-redefining-automation-for-enterprises.mdx',
+  '2024-10-22-asana-ai-studio-now-offers-ai-agent-creation-for-workflow-management.mdx',
+  '2024-10-22-cohere-adds-vision-to-its-rag-search-capabilities.mdx',
+  '2024-10-22-crewai-now-lets-you-build-fleets-of-enterprise-ai-agents.mdx',
+  '2024-10-22-dotmatics-aims-to-speed-drug-development-break-data-silos-with-geneious-luma.mdx',
+  '2024-10-22-generative-ai-grows-17percent-in-2024-but-data-quality-plummets-key-findings-from-appens-state-of-ai-report.mdx',
+  '2024-10-22-netvrk-launches-its-ai-powered-metaverse-with-unreal-engine-5-graphics.mdx',
+  '2024-10-22-qualcomm-unveils-snapdragon-elite-platforms-for-automotive.mdx',
+  '2024-10-22-stable-diffusion-35-debuts-as-stability-ai-aims-to-improve-open-models-for-generating-images.mdx',
+  '2024-10-22-this-is-a-game-changer-runway-releases-new-ai-facial-expression-motion-capture-feature-act-one.mdx',
+  '2024-10-22-would-you-trust-ai-to-mediate-an-argument.mdx',
+  '2024-10-23-google-deepmind-is-making-its-ai-text-watermark-open-source.mdx',
+  '2024-10-23-introducing-the-ai-hype-index.mdx',
+  '2024-10-23-the-algorithms-around-us.mdx',
+  '2024-10-23-the-global-view-of-gaming-from-a-huge-external-development-firm-or-gilles-langourieux-interview.mdx',
+  '2024-10-31-chasing-ais-value-in-life-sciences.mdx',
+  '2024-10-31-google-just-gave-its-ai-access-to-search-hours-before-openai-launched-chatgpt-search.mdx',
+  '2024-10-31-meta-makes-its-mobilellm-open-for-researchers-posting-full-weights.mdx',
+  '2024-10-31-microsofts-agentic-ai-tool-omniparser-rockets-up-the-open-source-charts.mdx',
+  '2024-10-31-noma-arrives-to-provide-security-from-data-storage-to-deployment-for-enterprise-ai-solutions.mdx',
+  '2024-10-31-openai-brings-a-new-web-search-tool-to-chatgpt.mdx',
+  '2024-10-31-openai-turns-chatgpt-into-a-search-engine-aims-directly-at-google.mdx',
+  '2024-10-31-the-great-ai-masquerade-when-automation-wears-an-agent-costume.mdx',
+  '2024-10-31-this-ai-generated-version-of-minecraft-may-represent-the-future-of-real-time-video-generation.mdx',
+  '2024-11-01-ai-on-your-smartphone-hugging-faces-smollm2-brings-powerful-models-to-the-palm-of-your-hand.mdx',
+  '2024-11-01-devrev-raises-dollar1008-million-in-series-a-funding-and-becomes-an-ai-unicorn-at-a-dollar115-billion-valuation.mdx',
+  '2024-11-01-how-gaming-can-get-back-to-balanced-growth-or-the-deanbeat.mdx',
+  '2024-11-01-runway-goes-3d-with-new-ai-video-camera-controls-for-gen-3-alpha-turbo.mdx',
+  '2024-11-01-the-shows-not-over-2024-sees-big-boost-to-ai-investment.mdx',
+  '2024-11-02-meta-unveils-ai-tools-to-give-robots-a-human-touch-in-physical-world.mdx',
+  '2024-11-02-why-multi-agent-ai-tackles-complexities-llms-cant.mdx',
+  '2024-11-03-enter-the-whisperverse-how-ai-voice-agents-will-guide-us-through-our-days.mdx',
+  '2024-11-04-nvidia-ai-blueprint-makes-it-easy-for-any-devs-to-build-automated-agents-that-analyze-video.mdx',
+  '2024-11-04-uc-san-diego-tsinghua-university-researchers-just-made-ai-way-better-at-knowing-when-to-ask-for-help.mdx',
+  '2024-11-04-xai-woos-developers-with-dollar25month-worth-of-api-credits-support-for-openai-anthropic-sdks.mdx',
+  '2024-11-14-2025-the-year-invisible-ai-agents-will-integrate-into-enterprise-hierarchies.mdx',
+  '2024-11-14-ai-agents-momentum-wont-stop-in-2025.mdx',
+  '2024-11-14-ai-search-wars-heat-up-genspark-adds-claude-powered-financial-reports-on-demand.mdx',
+  '2024-11-14-anthropics-new-ai-tools-promise-to-simplify-prompt-writing-and-boost-accuracy-by-30percent.mdx',
+  '2024-11-14-case-study-how-ny-presbyterian-has-found-success-in-not-rushing-to-implement-ai.mdx',
+  '2024-11-14-how-custom-evals-get-consistent-results-from-llm-applications.mdx',
+  '2024-11-14-how-sema4ai-is-empowering-business-users-to-deploy-ai-agents-in-minutes.mdx',
+  '2024-11-14-how-to-get-started-with-ai-agents-and-do-it-right.mdx',
+  '2024-11-14-openai-launches-chatgpt-desktop-integrations-rivaling-copilot.mdx',
+  '2024-11-14-securing-the-ai-frontier-protecting-enterprise-systems-against-ai-driven-threats.mdx',
+  '2024-11-14-snowflake-build-the-4-biggest-announcements-on-cortex-ai-and-more.mdx',
+  '2024-11-14-the-new-paradigm-architecting-the-data-stack-for-ai-agents.mdx',
+  '2024-11-14-this-startups-ai-platform-could-replace-90percent-of-your-accounting-tasksheres-how.mdx',
+  '2024-11-14-unlocking-generative-ais-true-value-a-guide-to-measuring-roi.mdx',
+  '2024-11-14-want-to-easily-render-3d-environments-cybever-and-cloud-zeta-have-a-way.mdx',
+  '2024-11-14-why-ai-wont-make-you-a-better-writer.mdx',
+  '2024-11-15-basejump-will-launch-social-gaming-platform-with-ai-powered-game-creator.mdx',
+  '2024-11-15-google-gemini-unexpectedly-surges-to-no-1-over-openai-but-benchmarks-dont-tell-the-whole-story.mdx',
+  '2024-11-15-how-this-grassroots-effort-could-make-ai-voices-more-diverse.mdx',
+  '2024-11-15-reforged-labs-launches-ai-ad-creation-service-for-mobile-games-in-open-beta.mdx',
+  '2024-11-22-chinese-researchers-unveil-llava-o1-to-challenge-openais-o1-model.mdx',
+  '2024-11-23-ai2-closes-the-gap-between-closed-source-and-open-source-post-training.mdx',
+  '2024-11-23-getting-started-with-ai-agents-part-1-capturing-processes-roles-and-connections.mdx',
+  '2024-11-24-getting-started-with-ai-agents-part-2-autonomy-safeguards-and-pitfalls.mdx',
+  '2024-11-24-microsofts-10-new-ai-agents-strengthen-its-enterprise-automation-lead.mdx',
+  '2024-11-25-luma-expands-dream-machine-ai-video-model-into-full-creative-platform-mobile-app.mdx',
+  '2024-11-25-thomson-reuters-cocounsel-redefines-legal-ai-with-openais-o1-mini-model.mdx',
+  '2024-11-26-anthropic-bets-on-personalization-in-the-ai-arms-race-with-new-styles-feature.mdx',
+  '2024-11-26-anthropic-releases-model-context-protocol-to-standardize-ai-data-integration.mdx',
+  '2024-11-26-the-way-we-measure-progress-in-ai-is-terrible.mdx',
+  '2024-11-26-we-need-to-start-wrestling-with-the-ethics-of-ai-agents.mdx',
+  '2024-11-27-alibaba-researchers-unveil-marco-o1-an-llm-with-advanced-reasoning-capabilities.mdx',
+  '2024-11-27-hugging-faces-smolvlm-could-cut-ai-costs-for-businesses-by-a-huge-margin.mdx',
+  '2024-11-27-these-ai-minecraft-characters-did-weirdly-human-stuff-all-on-their-own.mdx',
+  '2024-11-27-trumps-ai-czar-and-the-wild-west-of-ai-regulation-strategies-for-enterprises-to-navigate-the-chaos.mdx',
+  '2024-11-28-openai-faces-critical-test-as-chinese-models-close-the-gap-in-ai-leadership.mdx',
+  '2024-11-29-alibaba-releases-qwen-with-questions-an-open-reasoning-model-that-beats-o1-preview.mdx',
+  '2024-11-30-ai-that-clicks-for-you-microsofts-research-points-to-the-future-of-gui-automation.mdx',
+  '2024-11-30-every-millisecond-matters-why-a-formula-e-team-picked-cato-networks-to-connect-its-pitlane.mdx',
+  '2024-12-01-the-end-of-ai-scaling-may-not-be-nigh-heres-whats-next.mdx',
+  '_index.js'
+]
+Scraping completed successfully! Created 20 valid posts.
+
+2024-12-02T00:00:02.562Z: Scheduled scrape task completed
+2024-12-02T00:01:00.309Z: Test cron running - checking scheduler is active
+2024-12-02T00:02:00.867Z: Test cron running - checking scheduler is active
+2024-12-02T00:03:00.444Z: Test cron running - checking scheduler is active
+2024-12-02T00:04:00.021Z: Test cron running - checking scheduler is active
+2024-12-02T00:05:00.535Z: Test cron running - checking scheduler is active
+2024-12-02T00:06:00.089Z: Test cron running - checking scheduler is active
+2024-12-02T00:07:00.609Z: Test cron running - checking scheduler is active
+2024-12-02T00:08:00.184Z: Test cron running - checking scheduler is active
+2024-12-02T00:09:00.731Z: Test cron running - checking scheduler is active
+2024-12-02T00:10:00.304Z: Test cron running - checking scheduler is active
+2024-12-02T00:11:00.854Z: Test cron running - checking scheduler is active
+2024-12-02T00:12:00.448Z: Test cron running - checking scheduler is active
+2024-12-02T00:13:00.986Z: Test cron running - checking scheduler is active
+2024-12-02T00:14:00.483Z: Test cron running - checking scheduler is active
+2024-12-02T00:15:00.076Z: Test cron running - checking scheduler is active
+2024-12-02T00:16:00.568Z: Test cron running - checking scheduler is active
+2024-12-02T15:07:00.106Z: Test cron running - checking scheduler is active
+2024-12-02T15:08:00.825Z: Test cron running - checking scheduler is active
+2024-12-02T15:09:00.187Z: Test cron running - checking scheduler is active
+2024-12-02T15:10:00.501Z: Test cron running - checking scheduler is active
+2024-12-02T15:13:58.341Z: Scheduler started
+2024-12-02T15:14:00.360Z: Test cron running - checking scheduler is active
+2024-12-02T15:15:00.701Z: Test cron running - checking scheduler is active
+2024-12-02T15:16:00.053Z: Test cron running - checking scheduler is active
+2024-12-02T15:17:00.390Z: Test cron running - checking scheduler is active
+2024-12-02T15:18:00.725Z: Test cron running - checking scheduler is active
+2024-12-02T15:19:00.088Z: Test cron running - checking scheduler is active
+2024-12-02T15:20:00.427Z: Test cron running - checking scheduler is active
+2024-12-02T15:21:00.779Z: Test cron running - checking scheduler is active
+2024-12-02T15:22:00.139Z: Test cron running - checking scheduler is active
+2024-12-02T15:23:00.503Z: Test cron running - checking scheduler is active
+2024-12-02T15:24:00.850Z: Test cron running - checking scheduler is active
+2024-12-02T15:25:00.216Z: Test cron running - checking scheduler is active
+2024-12-02T15:26:00.704Z: Test cron running - checking scheduler is active
+2024-12-02T15:27:00.214Z: Test cron running - checking scheduler is active
+2024-12-02T15:28:00.739Z: Test cron running - checking scheduler is active
+2024-12-02T15:29:00.287Z: Test cron running - checking scheduler is active
+2024-12-02T15:30:00.808Z: Test cron running - checking scheduler is active
+2024-12-02T15:31:00.294Z: Test cron running - checking scheduler is active
+2024-12-02T15:32:00.812Z: Test cron running - checking scheduler is active
+2024-12-02T15:33:00.251Z: Test cron running - checking scheduler is active
+2024-12-02T15:34:00.602Z: Test cron running - checking scheduler is active
+2024-12-02T15:35:00.921Z: Test cron running - checking scheduler is active
+2024-12-02T15:36:00.240Z: Test cron running - checking scheduler is active
+2024-12-02T15:37:32.495Z: Scheduler started
+2024-12-02T15:38:00.648Z: Test cron running - checking scheduler is active
+2024-12-02T15:40:00.347Z: Test cron running - checking scheduler is active
+2024-12-02T15:41:00.665Z: Test cron running - checking scheduler is active
+2024-12-02T15:42:00.002Z: Test cron running - checking scheduler is active
+2024-12-02T15:43:00.343Z: Test cron running - checking scheduler is active
+2024-12-02T15:44:00.686Z: Test cron running - checking scheduler is active
+2024-12-02T15:45:00.043Z: Test cron running - checking scheduler is active
+2024-12-02T15:46:00.375Z: Test cron running - checking scheduler is active
+2024-12-02T15:47:00.846Z: Test cron running - checking scheduler is active
+2024-12-02T15:48:00.414Z: Test cron running - checking scheduler is active
+2024-12-02T15:49:00.963Z: Test cron running - checking scheduler is active
+2024-12-02T15:50:00.493Z: Test cron running - checking scheduler is active
+2024-12-02T15:51:00.065Z: Test cron running - checking scheduler is active
+2024-12-02T15:52:00.644Z: Test cron running - checking scheduler is active
+2024-12-02T15:53:00.187Z: Test cron running - checking scheduler is active
+2024-12-02T15:54:00.726Z: Test cron running - checking scheduler is active
+2024-12-02T15:55:00.204Z: Test cron running - checking scheduler is active
+2024-12-02T15:56:00.708Z: Test cron running - checking scheduler is active
+2024-12-02T15:57:00.211Z: Test cron running - checking scheduler is active
+2024-12-02T15:58:00.768Z: Test cron running - checking scheduler is active
+2024-12-02T15:59:00.283Z: Test cron running - checking scheduler is active
+2024-12-02T16:00:00.795Z: Test cron running - checking scheduler is active
+2024-12-02T16:01:00.308Z: Test cron running - checking scheduler is active
+2024-12-02T16:02:00.884Z: Test cron running - checking scheduler is active
+2024-12-02T16:03:00.405Z: Test cron running - checking scheduler is active
+2024-12-02T16:04:00.890Z: Test cron running - checking scheduler is active
+2024-12-02T16:05:00.429Z: Test cron running - checking scheduler is active
+2024-12-02T16:06:00.953Z: Test cron running - checking scheduler is active
+2024-12-02T16:07:00.510Z: Test cron running - checking scheduler is active
+2024-12-02T16:08:00.013Z: Test cron running - checking scheduler is active
+2024-12-02T16:09:00.485Z: Test cron running - checking scheduler is active
+2024-12-02T16:10:00.875Z: Test cron running - checking scheduler is active
+2024-12-02T16:11:00.223Z: Test cron running - checking scheduler is active
+2024-12-02T16:12:00.590Z: Test cron running - checking scheduler is active
+2024-12-02T16:13:00.939Z: Test cron running - checking scheduler is active
+2024-12-02T16:14:00.340Z: Test cron running - checking scheduler is active
+2024-12-02T16:15:00.894Z: Test cron running - checking scheduler is active
+2024-12-02T16:16:00.408Z: Test cron running - checking scheduler is active
+2024-12-02T16:17:00.951Z: Test cron running - checking scheduler is active
+2024-12-02T16:18:00.288Z: Test cron running - checking scheduler is active
+2024-12-02T16:19:41.212Z: Scheduler started
+2024-12-02T16:20:00.328Z: Test cron running - checking scheduler is active
+2024-12-02T16:21:00.678Z: Test cron running - checking scheduler is active
+2024-12-02T16:22:00.009Z: Test cron running - checking scheduler is active
+2024-12-02T16:23:00.362Z: Test cron running - checking scheduler is active
+2024-12-02T16:24:00.721Z: Test cron running - checking scheduler is active
+2024-12-02T16:25:00.059Z: Test cron running - checking scheduler is active
+2024-12-02T16:26:00.392Z: Test cron running - checking scheduler is active
+2024-12-02T16:27:00.737Z: Test cron running - checking scheduler is active
+2024-12-02T16:28:00.066Z: Test cron running - checking scheduler is active
+2024-12-02T16:33:14.733Z: Scheduler started
+2024-12-02T16:34:00.022Z: Test cron running - checking scheduler is active
+2024-12-02T16:35:00.365Z: Test cron running - checking scheduler is active
+2024-12-02T16:36:00.729Z: Test cron running - checking scheduler is active
+2024-12-02T16:37:00.078Z: Test cron running - checking scheduler is active
+2024-12-02T16:38:00.440Z: Test cron running - checking scheduler is active
+2024-12-02T16:39:00.790Z: Test cron running - checking scheduler is active
+2024-12-02T16:40:00.131Z: Test cron running - checking scheduler is active
+2024-12-02T16:41:00.512Z: Test cron running - checking scheduler is active
+2024-12-02T16:42:00.031Z: Test cron running - checking scheduler is active
+2024-12-02T16:43:00.624Z: Test cron running - checking scheduler is active
+2024-12-02T16:44:00.125Z: Test cron running - checking scheduler is active
+2024-12-02T16:45:00.654Z: Test cron running - checking scheduler is active
+2024-12-02T16:46:00.188Z: Test cron running - checking scheduler is active
+2024-12-02T16:47:00.733Z: Test cron running - checking scheduler is active
+2024-12-02T16:48:00.273Z: Test cron running - checking scheduler is active
+2024-12-02T16:49:00.805Z: Test cron running - checking scheduler is active
+2024-12-02T16:50:00.334Z: Test cron running - checking scheduler is active
+2024-12-02T16:51:00.865Z: Test cron running - checking scheduler is active
+2024-12-02T16:52:00.415Z: Test cron running - checking scheduler is active
+2024-12-02T16:53:00.937Z: Test cron running - checking scheduler is active
+2024-12-02T16:54:00.499Z: Test cron running - checking scheduler is active
+2024-12-02T16:55:00.037Z: Test cron running - checking scheduler is active
+2024-12-02T16:56:00.592Z: Test cron running - checking scheduler is active
+2024-12-02T16:57:00.114Z: Test cron running - checking scheduler is active
+2024-12-02T16:58:00.714Z: Test cron running - checking scheduler is active
+2024-12-02T16:59:00.312Z: Test cron running - checking scheduler is active
+2024-12-02T17:00:00.834Z: Test cron running - checking scheduler is active
+2024-12-02T17:01:00.356Z: Test cron running - checking scheduler is active
+2024-12-02T17:02:00.925Z: Test cron running - checking scheduler is active
+2024-12-02T17:03:00.466Z: Test cron running - checking scheduler is active
+2024-12-02T17:04:00.039Z: Test cron running - checking scheduler is active
+2024-12-02T17:05:00.489Z: Test cron running - checking scheduler is active
+2024-12-02T17:06:00.839Z: Test cron running - checking scheduler is active
+2024-12-02T17:07:00.208Z: Test cron running - checking scheduler is active
+2024-12-02T17:08:00.519Z: Test cron running - checking scheduler is active
+2024-12-02T17:09:51.471Z: Scheduler started
+2024-12-02T17:10:00.526Z: Test cron running - checking scheduler is active
+2024-12-02T17:11:00.892Z: Test cron running - checking scheduler is active
+2024-12-02T17:12:00.262Z: Test cron running - checking scheduler is active
+2024-12-02T17:13:00.647Z: Test cron running - checking scheduler is active
+2024-12-02T17:14:00.057Z: Test cron running - checking scheduler is active
+2024-12-02T17:15:00.457Z: Test cron running - checking scheduler is active
+2024-12-02T17:16:00.841Z: Test cron running - checking scheduler is active
+2024-12-02T17:17:00.238Z: Test cron running - checking scheduler is active
+2024-12-02T17:18:00.854Z: Test cron running - checking scheduler is active
+2024-12-02T17:19:00.436Z: Test cron running - checking scheduler is active
+2024-12-02T17:20:00.999Z: Test cron running - checking scheduler is active
+2024-12-02T17:21:00.594Z: Test cron running - checking scheduler is active
+2024-12-02T17:22:00.036Z: Test cron running - checking scheduler is active
+2024-12-02T17:49:40.517Z: Scheduler started
+2024-12-02T17:50:00.638Z: Test cron running - checking scheduler is active
+2024-12-02T17:51:00.996Z: Test cron running - checking scheduler is active
+2024-12-02T17:52:00.336Z: Test cron running - checking scheduler is active
+2024-12-02T17:53:00.699Z: Test cron running - checking scheduler is active
+2024-12-02T17:54:00.068Z: Test cron running - checking scheduler is active
+2024-12-02T17:55:00.421Z: Test cron running - checking scheduler is active
+2024-12-02T17:56:00.758Z: Test cron running - checking scheduler is active
+2024-12-02T17:57:00.105Z: Test cron running - checking scheduler is active
+2024-12-02T17:58:00.450Z: Test cron running - checking scheduler is active
+2024-12-02T17:59:00.810Z: Test cron running - checking scheduler is active
+2024-12-02T18:09:09.754Z: Scheduler started
+2024-12-02T18:10:00.063Z: Test cron running - checking scheduler is active
+2024-12-02T18:11:00.401Z: Test cron running - checking scheduler is active
+2024-12-02T18:12:00.731Z: Test cron running - checking scheduler is active
+2024-12-02T18:13:00.080Z: Test cron running - checking scheduler is active
+2024-12-02T18:14:00.454Z: Test cron running - checking scheduler is active
+2024-12-02T18:15:00.935Z: Test cron running - checking scheduler is active
+2024-12-02T18:16:00.425Z: Test cron running - checking scheduler is active
+2024-12-02T18:17:00.974Z: Test cron running - checking scheduler is active
+2024-12-02T18:18:00.461Z: Test cron running - checking scheduler is active
+2024-12-02T18:19:00.004Z: Test cron running - checking scheduler is active
+2024-12-02T18:20:00.539Z: Test cron running - checking scheduler is active
+2024-12-02T18:21:00.086Z: Test cron running - checking scheduler is active
+2024-12-02T18:22:00.654Z: Test cron running - checking scheduler is active
+2024-12-02T18:23:00.217Z: Test cron running - checking scheduler is active
+2024-12-02T18:24:00.760Z: Test cron running - checking scheduler is active
+2024-12-02T18:25:00.247Z: Test cron running - checking scheduler is active
+2024-12-02T18:26:00.785Z: Test cron running - checking scheduler is active
+2024-12-02T18:27:00.364Z: Test cron running - checking scheduler is active
+2024-12-02T18:28:00.922Z: Test cron running - checking scheduler is active
+2024-12-02T18:29:00.420Z: Test cron running - checking scheduler is active
+2024-12-02T18:30:00.861Z: Test cron running - checking scheduler is active
+2024-12-02T18:31:00.198Z: Test cron running - checking scheduler is active
+2024-12-02T18:32:00.522Z: Test cron running - checking scheduler is active
+2024-12-02T18:33:00.885Z: Test cron running - checking scheduler is active
+2024-12-02T18:34:00.237Z: Test cron running - checking scheduler is active
+2024-12-02T18:35:00.626Z: Test cron running - checking scheduler is active
+2024-12-02T18:36:00.155Z: Test cron running - checking scheduler is active
+2024-12-02T18:37:00.719Z: Test cron running - checking scheduler is active
+2024-12-02T18:38:00.274Z: Test cron running - checking scheduler is active
+2024-12-02T18:39:00.852Z: Test cron running - checking scheduler is active
+2024-12-02T18:40:00.375Z: Test cron running - checking scheduler is active
+2024-12-02T18:41:00.906Z: Test cron running - checking scheduler is active
+2024-12-02T18:42:00.403Z: Test cron running - checking scheduler is active
+2024-12-02T18:43:00.914Z: Test cron running - checking scheduler is active
+2024-12-02T18:44:00.450Z: Test cron running - checking scheduler is active
+2024-12-02T18:46:00.519Z: Test cron running - checking scheduler is active
+2024-12-02T18:47:00.058Z: Test cron running - checking scheduler is active
+2024-12-02T18:48:00.633Z: Test cron running - checking scheduler is active
+2024-12-02T18:49:00.204Z: Test cron running - checking scheduler is active
+2024-12-02T18:50:00.780Z: Test cron running - checking scheduler is active
+2024-12-02T18:51:00.326Z: Test cron running - checking scheduler is active
+2024-12-02T18:52:00.908Z: Test cron running - checking scheduler is active
+2024-12-02T18:53:00.429Z: Test cron running - checking scheduler is active
+2024-12-02T18:54:00.017Z: Test cron running - checking scheduler is active
+2024-12-02T18:55:00.572Z: Test cron running - checking scheduler is active
+2024-12-02T18:56:00.111Z: Test cron running - checking scheduler is active
+2024-12-02T18:57:00.647Z: Test cron running - checking scheduler is active
+2024-12-02T18:58:00.193Z: Test cron running - checking scheduler is active
+2024-12-02T18:59:00.758Z: Test cron running - checking scheduler is active
+2024-12-02T19:00:00.277Z: Test cron running - checking scheduler is active
+2024-12-02T19:01:00.845Z: Test cron running - checking scheduler is active
+2024-12-02T19:02:00.387Z: Test cron running - checking scheduler is active
+2024-12-02T19:03:00.895Z: Test cron running - checking scheduler is active
+2024-12-02T19:04:00.442Z: Test cron running - checking scheduler is active
+2024-12-02T19:05:00.948Z: Test cron running - checking scheduler is active
+2024-12-02T19:06:00.471Z: Test cron running - checking scheduler is active
+2024-12-02T19:07:00.020Z: Test cron running - checking scheduler is active
+2024-12-02T19:08:00.586Z: Test cron running - checking scheduler is active
+2024-12-02T19:09:00.136Z: Test cron running - checking scheduler is active
+2024-12-02T19:10:00.655Z: Test cron running - checking scheduler is active
+2024-12-02T19:11:00.206Z: Test cron running - checking scheduler is active
+2024-12-02T19:12:00.812Z: Test cron running - checking scheduler is active
+2024-12-02T19:13:00.363Z: Test cron running - checking scheduler is active
+2024-12-02T19:14:00.927Z: Test cron running - checking scheduler is active
+2024-12-02T19:15:00.479Z: Test cron running - checking scheduler is active
+2024-12-02T19:16:00.031Z: Test cron running - checking scheduler is active
+2024-12-02T19:17:00.565Z: Test cron running - checking scheduler is active
+2024-12-02T19:18:00.131Z: Test cron running - checking scheduler is active
+2024-12-02T19:19:00.721Z: Test cron running - checking scheduler is active
+2024-12-02T19:20:00.255Z: Test cron running - checking scheduler is active
+2024-12-02T19:21:00.799Z: Test cron running - checking scheduler is active
+2024-12-02T19:22:00.318Z: Test cron running - checking scheduler is active
+2024-12-02T19:23:00.902Z: Test cron running - checking scheduler is active
+2024-12-02T19:24:00.458Z: Test cron running - checking scheduler is active
+2024-12-02T19:25:00.046Z: Test cron running - checking scheduler is active
+2024-12-02T19:26:00.641Z: Test cron running - checking scheduler is active
+2024-12-02T19:27:00.178Z: Test cron running - checking scheduler is active
+2024-12-02T19:28:00.790Z: Test cron running - checking scheduler is active
+2024-12-02T19:29:00.366Z: Test cron running - checking scheduler is active
+2024-12-02T19:30:00.917Z: Test cron running - checking scheduler is active
+2024-12-02T19:31:00.460Z: Test cron running - checking scheduler is active
+2024-12-02T19:32:00.026Z: Test cron running - checking scheduler is active
+2024-12-02T19:42:00.878Z: Test cron running - checking scheduler is active
+2024-12-02T19:43:00.695Z: Test cron running - checking scheduler is active
+2024-12-02T19:44:00.028Z: Test cron running - checking scheduler is active
+2024-12-02T19:45:00.379Z: Test cron running - checking scheduler is active
+2024-12-02T19:46:00.740Z: Test cron running - checking scheduler is active
+2024-12-02T19:47:00.082Z: Test cron running - checking scheduler is active
+2024-12-02T19:48:00.432Z: Test cron running - checking scheduler is active
+2024-12-02T19:49:00.805Z: Test cron running - checking scheduler is active
+2024-12-02T19:50:00.155Z: Test cron running - checking scheduler is active
+2024-12-02T19:51:00.523Z: Test cron running - checking scheduler is active
+2024-12-02T19:52:00.847Z: Test cron running - checking scheduler is active
+2024-12-02T19:53:00.197Z: Test cron running - checking scheduler is active
+2024-12-02T19:54:00.720Z: Test cron running - checking scheduler is active
+2024-12-02T19:55:00.190Z: Test cron running - checking scheduler is active
+2024-12-02T19:56:00.708Z: Test cron running - checking scheduler is active
+2024-12-02T19:57:00.284Z: Test cron running - checking scheduler is active
+2024-12-02T19:58:00.825Z: Test cron running - checking scheduler is active
+2024-12-02T19:59:00.341Z: Test cron running - checking scheduler is active
+2024-12-02T20:00:00.893Z: Test cron running - checking scheduler is active
+2024-12-02T20:01:00.470Z: Test cron running - checking scheduler is active
+2024-12-02T20:02:00.038Z: Test cron running - checking scheduler is active
+2024-12-02T20:03:00.616Z: Test cron running - checking scheduler is active
+2024-12-02T20:04:00.137Z: Test cron running - checking scheduler is active
+2024-12-02T20:05:00.652Z: Test cron running - checking scheduler is active
+2024-12-02T20:06:00.082Z: Test cron running - checking scheduler is active
+2024-12-02T20:07:00.651Z: Test cron running - checking scheduler is active
+2024-12-02T20:08:00.124Z: Test cron running - checking scheduler is active
+2024-12-02T20:09:00.676Z: Test cron running - checking scheduler is active
+2024-12-02T20:10:00.249Z: Test cron running - checking scheduler is active
+2024-12-02T20:11:00.577Z: Test cron running - checking scheduler is active
+2024-12-02T20:12:00.913Z: Test cron running - checking scheduler is active
+2024-12-02T20:13:00.281Z: Test cron running - checking scheduler is active
+2024-12-02T20:14:00.675Z: Test cron running - checking scheduler is active
+2024-12-02T20:15:00.011Z: Test cron running - checking scheduler is active
+2024-12-02T20:16:00.362Z: Test cron running - checking scheduler is active
+2024-12-02T20:17:00.732Z: Test cron running - checking scheduler is active
+2024-12-02T20:18:00.074Z: Test cron running - checking scheduler is active
+2024-12-02T20:19:00.444Z: Test cron running - checking scheduler is active
+2024-12-02T20:20:00.781Z: Test cron running - checking scheduler is active
+2024-12-02T20:21:00.134Z: Test cron running - checking scheduler is active
+2024-12-02T20:22:00.623Z: Test cron running - checking scheduler is active
+2024-12-02T20:23:00.093Z: Test cron running - checking scheduler is active
+2024-12-02T20:24:00.564Z: Test cron running - checking scheduler is active
+2024-12-02T20:25:00.023Z: Test cron running - checking scheduler is active
+2024-12-02T20:26:00.587Z: Test cron running - checking scheduler is active
+2024-12-02T20:27:00.146Z: Test cron running - checking scheduler is active
+2024-12-02T20:28:00.689Z: Test cron running - checking scheduler is active
+2024-12-02T20:29:00.211Z: Test cron running - checking scheduler is active
+2024-12-02T20:30:00.764Z: Test cron running - checking scheduler is active
+2024-12-02T20:31:00.291Z: Test cron running - checking scheduler is active
+2024-12-02T20:32:00.802Z: Test cron running - checking scheduler is active
+2024-12-02T20:33:00.383Z: Test cron running - checking scheduler is active
+2024-12-02T20:34:00.882Z: Test cron running - checking scheduler is active
+2024-12-02T20:35:00.427Z: Test cron running - checking scheduler is active
+2024-12-02T20:36:00.942Z: Test cron running - checking scheduler is active
+2024-12-02T20:37:00.514Z: Test cron running - checking scheduler is active
+2024-12-02T20:38:00.078Z: Test cron running - checking scheduler is active
+2024-12-02T20:39:00.656Z: Test cron running - checking scheduler is active
+2024-12-02T20:40:00.133Z: Test cron running - checking scheduler is active
+2024-12-02T20:41:00.703Z: Test cron running - checking scheduler is active
+2024-12-02T20:42:00.256Z: Test cron running - checking scheduler is active
+2024-12-02T20:43:00.831Z: Test cron running - checking scheduler is active
+2024-12-02T20:44:00.401Z: Test cron running - checking scheduler is active
+2024-12-02T20:46:00.469Z: Test cron running - checking scheduler is active
+2024-12-02T20:47:00.019Z: Test cron running - checking scheduler is active
+2024-12-02T20:48:00.594Z: Test cron running - checking scheduler is active
+2024-12-02T20:49:00.190Z: Test cron running - checking scheduler is active
+2024-12-02T20:50:00.725Z: Test cron running - checking scheduler is active
+2024-12-02T20:51:00.311Z: Test cron running - checking scheduler is active
+2024-12-02T20:52:00.872Z: Test cron running - checking scheduler is active
+2024-12-02T20:53:00.413Z: Test cron running - checking scheduler is active
+2024-12-02T20:54:00.977Z: Test cron running - checking scheduler is active
+2024-12-02T20:55:00.530Z: Test cron running - checking scheduler is active
+2024-12-02T20:56:00.036Z: Test cron running - checking scheduler is active
+2024-12-02T20:57:00.580Z: Test cron running - checking scheduler is active
+2024-12-02T20:58:00.106Z: Test cron running - checking scheduler is active
+2024-12-02T20:59:00.597Z: Test cron running - checking scheduler is active
+2024-12-02T21:00:00.156Z: Test cron running - checking scheduler is active
+2024-12-02T21:01:00.719Z: Test cron running - checking scheduler is active
+2024-12-02T21:02:00.271Z: Test cron running - checking scheduler is active
+2024-12-02T21:03:00.854Z: Test cron running - checking scheduler is active
+2024-12-02T21:04:00.435Z: Test cron running - checking scheduler is active
+2024-12-02T21:05:00.029Z: Test cron running - checking scheduler is active
+2024-12-02T21:06:00.588Z: Test cron running - checking scheduler is active
+2024-12-02T21:07:00.128Z: Test cron running - checking scheduler is active
+2024-12-02T21:08:00.693Z: Test cron running - checking scheduler is active
+2024-12-02T21:09:00.239Z: Test cron running - checking scheduler is active
+2024-12-02T21:10:00.782Z: Test cron running - checking scheduler is active
+2024-12-02T21:11:00.282Z: Test cron running - checking scheduler is active
+2024-12-02T21:12:00.825Z: Test cron running - checking scheduler is active
+2024-12-02T21:13:00.361Z: Test cron running - checking scheduler is active
+2024-12-02T21:14:00.941Z: Test cron running - checking scheduler is active
+2024-12-02T21:15:00.484Z: Test cron running - checking scheduler is active
+2024-12-02T21:16:00.010Z: Test cron running - checking scheduler is active
+2024-12-03T03:57:00.612Z: Test cron running - checking scheduler is active
+2024-12-10T23:40:56.572Z: Scheduler started
+2024-12-10T23:41:00.607Z: Test cron running - checking scheduler is active
+2024-12-10T23:42:00.012Z: Test cron running - checking scheduler is active
+2024-12-10T23:43:00.422Z: Test cron running - checking scheduler is active
+2024-12-10T23:44:00.863Z: Test cron running - checking scheduler is active
+2024-12-10T23:45:00.250Z: Test cron running - checking scheduler is active
+2024-12-10T23:46:00.668Z: Test cron running - checking scheduler is active
+2024-12-10T23:47:00.088Z: Test cron running - checking scheduler is active
+2024-12-10T23:48:00.483Z: Test cron running - checking scheduler is active
+2024-12-10T23:49:00.882Z: Test cron running - checking scheduler is active
+2024-12-10T23:50:00.271Z: Test cron running - checking scheduler is active
+2024-12-10T23:51:00.671Z: Test cron running - checking scheduler is active
+2024-12-10T23:52:00.009Z: Test cron running - checking scheduler is active
+2024-12-10T23:53:00.362Z: Test cron running - checking scheduler is active
+2024-12-10T23:54:00.716Z: Test cron running - checking scheduler is active
+2024-12-10T23:55:00.066Z: Test cron running - checking scheduler is active
+2024-12-10T23:56:00.445Z: Test cron running - checking scheduler is active
+2024-12-10T23:57:00.831Z: Test cron running - checking scheduler is active
+2024-12-10T23:58:00.205Z: Test cron running - checking scheduler is active
+2024-12-10T23:59:00.570Z: Test cron running - checking scheduler is active
+2024-12-11T00:00:00.008Z: Running the scheduled scrape task...
+2024-12-11T00:00:00.009Z: Test cron running - checking scheduler is active
+2024-12-11T00:00:00.647Z: Error executing scrape: Command failed: npm run scrape
+file:///app/scripts/scrape-news.js:11
+import { LRUCache } from 'lru-cache';
+         ^^^^^^^^
+SyntaxError: Named export 'LRUCache' not found. The requested module 'lru-cache' is a CommonJS module, which may not support all module.exports as named exports.
+CommonJS modules can always be imported via the default export, for example using:
+
+import pkg from 'lru-cache';
+const { LRUCache } = pkg;
+
+    at ModuleJob._instantiate (node:internal/modules/esm/module_job:123:21)
+    at async ModuleJob.run (node:internal/modules/esm/module_job:191:5)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12)
+
+Node.js v18.20.5
+
+2024-12-11T00:01:00.410Z: Test cron running - checking scheduler is active
+2024-12-11T00:02:00.836Z: Test cron running - checking scheduler is active
+2024-12-11T00:03:00.223Z: Test cron running - checking scheduler is active
+2024-12-11T00:04:00.645Z: Test cron running - checking scheduler is active
+2024-12-11T00:05:00.060Z: Test cron running - checking scheduler is active
+2024-12-11T00:06:00.523Z: Test cron running - checking scheduler is active

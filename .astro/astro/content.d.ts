@@ -459,6 +459,146 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
+"2024-11-14-2025-the-year-invisible-ai-agents-will-integrate-into-enterprise-hierarchies.mdx": {
+	id: "2024-11-14-2025-the-year-invisible-ai-agents-will-integrate-into-enterprise-hierarchies.mdx";
+  slug: "2024-11-14-2025-the-year-invisible-ai-agents-will-integrate-into-enterprise-hierarchies";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-14-ai-agents-momentum-wont-stop-in-2025.mdx": {
+	id: "2024-11-14-ai-agents-momentum-wont-stop-in-2025.mdx";
+  slug: "2024-11-14-ai-agents-momentum-wont-stop-in-2025";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-14-ai-search-wars-heat-up-genspark-adds-claude-powered-financial-reports-on-demand.mdx": {
+	id: "2024-11-14-ai-search-wars-heat-up-genspark-adds-claude-powered-financial-reports-on-demand.mdx";
+  slug: "2024-11-14-ai-search-wars-heat-up-genspark-adds-claude-powered-financial-reports-on-demand";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-14-anthropics-new-ai-tools-promise-to-simplify-prompt-writing-and-boost-accuracy-by-30percent.mdx": {
+	id: "2024-11-14-anthropics-new-ai-tools-promise-to-simplify-prompt-writing-and-boost-accuracy-by-30percent.mdx";
+  slug: "2024-11-14-anthropics-new-ai-tools-promise-to-simplify-prompt-writing-and-boost-accuracy-by-30percent";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-14-case-study-how-ny-presbyterian-has-found-success-in-not-rushing-to-implement-ai.mdx": {
+	id: "2024-11-14-case-study-how-ny-presbyterian-has-found-success-in-not-rushing-to-implement-ai.mdx";
+  slug: "2024-11-14-case-study-how-ny-presbyterian-has-found-success-in-not-rushing-to-implement-ai";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-14-how-custom-evals-get-consistent-results-from-llm-applications.mdx": {
+	id: "2024-11-14-how-custom-evals-get-consistent-results-from-llm-applications.mdx";
+  slug: "2024-11-14-how-custom-evals-get-consistent-results-from-llm-applications";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-14-how-sema4ai-is-empowering-business-users-to-deploy-ai-agents-in-minutes.mdx": {
+	id: "2024-11-14-how-sema4ai-is-empowering-business-users-to-deploy-ai-agents-in-minutes.mdx";
+  slug: "2024-11-14-how-sema4ai-is-empowering-business-users-to-deploy-ai-agents-in-minutes";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-14-how-to-get-started-with-ai-agents-and-do-it-right.mdx": {
+	id: "2024-11-14-how-to-get-started-with-ai-agents-and-do-it-right.mdx";
+  slug: "2024-11-14-how-to-get-started-with-ai-agents-and-do-it-right";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-14-openai-launches-chatgpt-desktop-integrations-rivaling-copilot.mdx": {
+	id: "2024-11-14-openai-launches-chatgpt-desktop-integrations-rivaling-copilot.mdx";
+  slug: "2024-11-14-openai-launches-chatgpt-desktop-integrations-rivaling-copilot";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-14-securing-the-ai-frontier-protecting-enterprise-systems-against-ai-driven-threats.mdx": {
+	id: "2024-11-14-securing-the-ai-frontier-protecting-enterprise-systems-against-ai-driven-threats.mdx";
+  slug: "2024-11-14-securing-the-ai-frontier-protecting-enterprise-systems-against-ai-driven-threats";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-14-snowflake-build-the-4-biggest-announcements-on-cortex-ai-and-more.mdx": {
+	id: "2024-11-14-snowflake-build-the-4-biggest-announcements-on-cortex-ai-and-more.mdx";
+  slug: "2024-11-14-snowflake-build-the-4-biggest-announcements-on-cortex-ai-and-more";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-14-the-new-paradigm-architecting-the-data-stack-for-ai-agents.mdx": {
+	id: "2024-11-14-the-new-paradigm-architecting-the-data-stack-for-ai-agents.mdx";
+  slug: "2024-11-14-the-new-paradigm-architecting-the-data-stack-for-ai-agents";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-14-this-startups-ai-platform-could-replace-90percent-of-your-accounting-tasksheres-how.mdx": {
+	id: "2024-11-14-this-startups-ai-platform-could-replace-90percent-of-your-accounting-tasksheres-how.mdx";
+  slug: "2024-11-14-this-startups-ai-platform-could-replace-90percent-of-your-accounting-tasksheres-how";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-14-unlocking-generative-ais-true-value-a-guide-to-measuring-roi.mdx": {
+	id: "2024-11-14-unlocking-generative-ais-true-value-a-guide-to-measuring-roi.mdx";
+  slug: "2024-11-14-unlocking-generative-ais-true-value-a-guide-to-measuring-roi";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-14-want-to-easily-render-3d-environments-cybever-and-cloud-zeta-have-a-way.mdx": {
+	id: "2024-11-14-want-to-easily-render-3d-environments-cybever-and-cloud-zeta-have-a-way.mdx";
+  slug: "2024-11-14-want-to-easily-render-3d-environments-cybever-and-cloud-zeta-have-a-way";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-14-why-ai-wont-make-you-a-better-writer.mdx": {
+	id: "2024-11-14-why-ai-wont-make-you-a-better-writer.mdx";
+  slug: "2024-11-14-why-ai-wont-make-you-a-better-writer";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-15-basejump-will-launch-social-gaming-platform-with-ai-powered-game-creator.mdx": {
+	id: "2024-11-15-basejump-will-launch-social-gaming-platform-with-ai-powered-game-creator.mdx";
+  slug: "2024-11-15-basejump-will-launch-social-gaming-platform-with-ai-powered-game-creator";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-15-google-gemini-unexpectedly-surges-to-no-1-over-openai-but-benchmarks-dont-tell-the-whole-story.mdx": {
+	id: "2024-11-15-google-gemini-unexpectedly-surges-to-no-1-over-openai-but-benchmarks-dont-tell-the-whole-story.mdx";
+  slug: "2024-11-15-google-gemini-unexpectedly-surges-to-no-1-over-openai-but-benchmarks-dont-tell-the-whole-story";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-15-how-this-grassroots-effort-could-make-ai-voices-more-diverse.mdx": {
+	id: "2024-11-15-how-this-grassroots-effort-could-make-ai-voices-more-diverse.mdx";
+  slug: "2024-11-15-how-this-grassroots-effort-could-make-ai-voices-more-diverse";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"2024-11-15-reforged-labs-launches-ai-ad-creation-service-for-mobile-games-in-open-beta.mdx": {
+	id: "2024-11-15-reforged-labs-launches-ai-ad-creation-service-for-mobile-games-in-open-beta.mdx";
+  slug: "2024-11-15-reforged-labs-launches-ai-ad-creation-service-for-mobile-games-in-open-beta";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
 };
 
 	};

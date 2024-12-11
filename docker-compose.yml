@@ -4,12 +4,20 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: ai_blog-astro-app # Specify the image name here
+    image: ai_blog-astro-app
     ports:
       - "3500:3500"
     volumes:
       - .:/app
+      - ./src/content:/app/src/content
+      - ./logs:/app/logs
       - /app/node_modules
-    command: npm run start
+      - /app/dist
+    environment:
+      - NODE_ENV=production
+      - TZ=UTC
+
+volumes:
+  blog-content:
 
 

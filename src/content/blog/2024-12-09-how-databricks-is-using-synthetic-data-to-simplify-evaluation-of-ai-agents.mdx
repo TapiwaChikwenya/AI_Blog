@@ -1,0 +1,138 @@
+---
+title: "How Databricks is using synthetic data to simplify evaluation of AI agents"
+date: "2024-12-09"
+source: "VentureBeat AI"
+sourceUrl: "https://venturebeat.com/data-infrastructure/databricks-makes-ai-agent-evaluation-a-breeze-with-new-synthetic-data-capabilities/"
+excerpt: "Join our daily and weekly newsletters for the latest updates and exclusive content on industry-leading AI coverage. Learn More Enterprises are going all in on compound AI agents. They want these syste..."
+---
+
+# How Databricks is using synthetic data to simplify evaluation of AI agents
+
+<div class="text-sm text-gray-500 mb-4">
+  Published on December 9, 2024 | Source: [VentureBeat AI](https://venturebeat.com/data-infrastructure/databricks-makes-ai-agent-evaluation-a-breeze-with-new-synthetic-data-capabilities/)
+</div>
+
+
+				<div>
+<p><em>Join our daily and weekly newsletters for the latest updates and exclusive content on industry-leading AI coverage. <a href="https://venturebeat.com/newsletters/?utm_source=VBsite&amp;utm_medium=desktopNav">Learn More</a></em></p>
+
+
+
+<hr/>
+</div><p>Enterprises are going all in on <a href="https://venturebeat.com/ai/getting-started-with-ai-agents-part-1-capturing-processes-roles-and-connections/">compound AI agents</a>. They want these systems to reason and handle different tasks in different domains, but are often stifled by the complex and time-consuming process of evaluating agent performance. xToday, data ecosystem leader <a href="https://www.databricks.com/" target="_blank">Databricks</a> <a href="https://www.databricks.com/blog/streamline-ai-agent-evaluation-with-new-synthetic-data-capabilities" target="_blank">announced</a> synthetic data capabilities to make this a tad easier for developers.</p>
+
+
+
+<p>The move, according to the company, will allow developers to generate high-quality artificial datasets within their workflows to evaluate the performance of in-development agentic systems. This will save them unnecessary back-and-forth with subject matter experts and more quickly bring agents to production.</p>
+
+
+
+<div/><p>While it remains to be seen how exactly the synthetic data offering will work for enterprises&#x2019; using the Databricks Intelligence platform, the Ali Ghodsi-led company claims that its internal tests have shown it can significantly improve agent performance across various metrics.</p>
+
+
+
+<h2>Databricks&#x2019; play for evaluating AI agents</h2>
+
+
+
+<p>Databricks <a href="https://venturebeat.com/data-infrastructure/databricks-is-acquiring-mosaicml-for-a-jaw-dropping-1-3-billion/">acquired MosaicML last year</a> and has fully integrated the company&#x2019;s technology and <a href="https://venturebeat.com/ai/mosaicml-challenges-openai-with-its-new-open-source-language-model/">models</a> across its Data Intelligence platform to give enterprises everything they need to build, deploy and evaluate machine learning (ML) and generative AI solutions using their data hosted in the company&#x2019;s lakehouse.&#xa0;</p>
+
+
+
+<p>Part of this work has revolved around helping teams build compound AI systems that can not only reason and respond with accuracy but also take actions such as opening/closing support tickets, responding to emails and making reservations. To this end, the company unveiled a whole <a href="https://venturebeat.com/data-infrastructure/databricks-bolsters-mosaic-ai-with-tools-to-build-and-evaluate-compound-ai-systems/">new suite of Mosaic AI capabilities this year</a>, including support for fine-tuning foundation models, a catalog for AI tools and offerings for building and evaluating the AI agents &#x2014; Mosaic AI Agent Framework and Agent Evaluation.</p>
+
+
+
+<p>Today, the company is expanding Agent Evaluation with a new synthetic data generation API.&#xa0;</p>
+
+
+
+<p>So far, Agent Evaluation has provided enterprises with two key capabilities. The first enables users and subject matter experts (SMEs) to manually define datasets with relevant questions and answers and create a yardstick of sorts to rate the quality of answers provided by AI agents. The second enables the SMEs to use this yardstick to assess the agent and provide feedback (labels). This is backed by AI judges that automatically log responses and feedback by humans in a table and rate the agent&#x2019;s quality on metrics such as accuracy and harmfulness.</p>
+
+
+
+<p>This approach works, but the process of building evaluation datasets takes a lot of time. The reasons are easy to imagine: Domain experts are not always available; the process is manual and users may often struggle to identify the most relevant questions and answers to provide &#x2018;golden&#x2019; examples of successful interactions.&#xa0;</p>
+
+
+
+<p>This is exactly where the synthetic data generation API comes into play, enabling developers to create high-quality evaluation datasets for preliminary assessment in a matter of minutes. It reduces the work of SMEs to final validation and fast-tracks the process of iterative development where developers can themselves explore how permutations of the system &#x2014; tuning models, changing retrieval or adding tools &#x2014; alter quality.&#xa0;</p>
+
+
+
+<p>The company ran internal tests to see how the datasets generated from the API can help evaluate and improve agents and noted that it can lead to significant improvements across various metrics.&#xa0;</p>
+
+
+
+<p>&#x201c;We asked a researcher to use the synthetic data to evaluate and improve an agent&#x2019;s performance and then evaluated the resulting agent using the human-curated data,&#x201d; Eric Peter, AI platform and product leader at Databricks, told VentureBeat. &#x201c;The results showed that across various metrics, the agent&#x2019;s performance improved significantly. For instance, we observed a nearly 2X increase in the agent&#x2019;s ability to find relevant documents (as measured by recall@10). Additionally, we saw improvements in the overall correctness of the agent&#x2019;s responses.&#x201d;</p>
+
+
+
+<h2>How does it stand out?</h2>
+
+
+
+<p>While there are <a href="https://venturebeat.com/data-infrastructure/mostly-ais-synthetic-text-tool-can-unlock-enterprise-emails-and-conversations-for-ai-training/">plenty of tools</a> that can generate synthetic datasets for evaluation, Databricks&#x2019; offering stands out with its tight integration with Mosaic AI Agentic Evaluation &#x2014; meaning developers building on the company&#x2019;s platform don&#x2019;t have to leave their workflows.&#xa0;</p>
+
+
+
+<p>Peter noted that creating a dataset with the new API is a four-step process. Devs just have to parse their documents (saving them as a Delta Table in their lakehouse), pass the Delta Table to the synthetic data API, run the evaluation with the generated data and view the quality results.&#xa0;</p>
+
+
+
+<p>In contrast, using an external tool would mean several additional steps, including running (extract, transform and load (<a href="https://venturebeat.com/remove-your-etl-bottleneck-and-let-analytics-flow/">ETL</a>) to move the parsed documents to an external environment that could run the synthetic data generation process; moving the generated data back to the Databricks platform; then transforming it to a format accepted by Agent Evaluation. Only after this can evaluation be executed.&#xa0;</p>
+
+
+
+<p>&#x201c;We knew companies needed a turnkey API that was simple to use &#x2014; one line of code to generate data,&#x201d; Peter explained. &#x201c;We also saw that many solutions on the market were offering simple open-source prompts that aren&#x2019;t tuned for quality. With this in mind, we made a significant investment in the quality of the generated data while still allowing developers to tune the pipeline for their unique enterprise requirements via a prompt-like interface. Finally, we knew most existing offerings needed to be imported into existing workflows, adding unnecessary complexity to the process. Instead, we built an SDK that was tightly integrated with the Databricks Data Intelligence Platform and Mosaic AI Agent Evaluation capabilities.&#x201d;</p>
+
+
+
+<p>Multiple enterprises using Databricks are already taking advantage of the synthetic data API as part of a private preview, and report a significant reduction in the time taken to improve the quality of their agents and deploy them into production.</p>
+
+
+
+<p>One of these customers, Chris Nishnick, director of artificial intelligence at <a href="https://corporate.lippert.com/products" target="_blank">Lippert</a>, said their teams were able to use the API&#x2019;s data to improve relative model response quality by 60%, even before involving experts.</p>
+
+
+
+<h2>More agent-centric capabilities in pipeline</h2>
+
+
+
+<p>As the next step, the company plans to expand Mosaic AI Agent Evaluation with features to help domain experts modify the synthetic data for further accuracy as well as tools to manage its lifecycle.</p>
+
+
+
+<p>&#x201c;In our preview, we learned that customers want several additional capabilities,&#x201d; said Peter. &#x201c;First, they want a user interface for their domain experts to review and edit the synthetic evaluation data. Second, they want a way to govern and manage the lifecycle of their evaluation set in order to track changes and make updates from the domain expert review of the data instantly available to developers. To address these challenges, we are already testing several features with customers that we plan to launch early next year.&#x201d;</p>
+
+
+
+<p>Broadly, the developments are expected to boost the adoption of Databrick&#x2019;s Mosaic AI offering, further strengthening the company&#x2019;s position as the go-to vendor for all things data and gen AI. </p>
+
+
+
+<p>But Snowflake is also catching up in the category and has made a series of product announcements, including a <a href="https://venturebeat.com/data-infrastructure/snowflake-beats-databricks-to-integrating-claude-3-5-directly/">model partnership with Anthropic</a>, for its <a href="https://venturebeat.com/data-infrastructure/snowflake-unveils-cortex-a-managed-service-to-build-llm-apps-in-the-data-cloud/">Cortex AI</a> product that allows enterprises to build gen AI apps. Earlier this year, Snowflake also acquired observability startup <a href="https://venturebeat.com/ai/snowflake-acquires-truera-to-deliver-llm-observability-inside-data-cloud/">TruEra</a> to provide AI application monitoring capabilities within Cortex.</p>
+<div>
+		<div>
+			<div>
+				<div><strong>VB Daily</strong></div>
+				<p>Stay in the know! Get the latest news in your inbox daily</p>
+				
+					
+					
+					
+										Subscribe
+				
+				<p>By subscribing, you agree to VentureBeat&apos;s <a href="/terms-of-service/">Terms of Service.</a></p>
+				<p>
+					Thanks for subscribing. Check out more <a href="/newsletters/">VB newsletters here</a>.
+				</p>
+				<p>An error occured.</p>
+			</div>
+		</div>
+		
+</div>			</div>
+
+---
+
+*This article was originally published on [VentureBeat AI](https://venturebeat.com/data-infrastructure/databricks-makes-ai-agent-evaluation-a-breeze-with-new-synthetic-data-capabilities/). Visit the source for more information.*

@@ -1,0 +1,142 @@
+---
+title: "Meta launches open source Llama 3.3, shrinking powerful bigger model into smaller size"
+date: "2024-12-06"
+source: "VentureBeat AI"
+sourceUrl: "https://venturebeat.com/ai/meta-launches-open-source-llama-3-3-shrinking-powerful-bigger-model-into-smaller-size/"
+excerpt: "Join our daily and weekly newsletters for the latest updates and exclusive content on industry-leading AI coverage. Learn More Meta&#x2019;s VP of generative AI, Ahmad Al-Dahle took to rival social ne..."
+---
+
+# Meta launches open source Llama 3.3, shrinking powerful bigger model into smaller size
+
+<div class="text-sm text-gray-500 mb-4">
+  Published on December 6, 2024 | Source: [VentureBeat AI](https://venturebeat.com/ai/meta-launches-open-source-llama-3-3-shrinking-powerful-bigger-model-into-smaller-size/)
+</div>
+
+
+				<div>
+<p><em>Join our daily and weekly newsletters for the latest updates and exclusive content on industry-leading AI coverage. <a href="https://venturebeat.com/newsletters/?utm_source=VBsite&amp;utm_medium=desktopNav">Learn More</a></em></p>
+
+
+
+<hr/>
+</div><p>Meta&#x2019;s VP of generative AI, Ahmad Al-Dahle took to rival social network X today to <a href="https://x.com/Ahmad_Al_Dahle/status/1865071436630778109">announce the release</a> of <a href="https://www.llama.com/docs/model-cards-and-prompt-formats/llama3_3/#introduction" target="_blank">Llama 3.3,</a> the latest open-source multilingual large language model (LLM) from the parent company of Facebook, Instagram, WhatsApp and Quest VR.</p>
+
+
+
+<p>As he wrote: &#x201c;Llama 3.3 improves core performance at a significantly lower cost, making it even more accessible to the entire open-source community.&#x201d;</p>
+
+
+
+<div/><p>With 70 billion parameters &#x2014; or settings governing the model&#x2019;s behavior &#x2014; Llama 3.3 delivers results on par with <a href="https://venturebeat.com/ai/meta-unleashes-its-most-powerful-ai-model-llama-3-1-with-405b-parameters/">Meta&#x2019;s 405B parameter model from the Llama 3.1</a> from the summer, but at a fraction of the cost and computational overhead &#x2014; i.e., the GPU capacity needed to run the model in an inference.</p>
+
+
+
+<p>It&#x2019;s designed to offer top-tier performance and accessibility yet in a smaller package than prior foundation models.</p>
+
+
+
+<p>Meta&#x2019;s Llama 3.3 is offered under the <a href="https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/LICENSE" target="_blank">Llama 3.3 Community License Agreement</a>, which grants a non-exclusive, royalty-free license for use, reproduction, distribution, and modification of the model and its outputs. Developers integrating Llama 3.3 into products or services must include appropriate attribution, such as &#x201c;Built with Llama,&#x201d; and adhere to an Acceptable Use Policy that prohibits activities like generating harmful content, violating laws, or enabling cyberattacks. While the license is generally free, organizations with over 700 million monthly active users must obtain a commercial license directly from Meta.</p>
+
+
+
+<p>A statement from the AI at Meta team underscores this vision: &#x201c;Llama 3.3 delivers leading performance and quality across text-based use cases at a fraction of the inference cost.&#x201d;</p>
+
+
+
+<h2>How much savings are we talkin&#x2019; about, really? Some back-of-the-envelope math:</h2>
+
+
+
+<p>Llama 3.1-405B requires between 243 GB and 1944 GB of GPU memory, according to the <a href="https://www.substratus.ai/blog/llama-3-1-405b-gpu-requirements">Substratus blog</a> (for <a href="https://www.linkedin.com/posts/samstoelinga_introducing-substratus-substratus-activity-7093353427119849474-P5nx/?trk=public_profile_like_view">the open-source cross cloud substrate)</a>. Meanwhile, the older Llama 2-70B requires between 42 and 168 GB of GPU memory, according to the <a href="https://www.substratus.ai/blog/calculating-gpu-memory-for-llm">same blog</a>, though some have <a href="https://huggingface.co/blog/lyogavin/airllm">claimed as low as 4 GB</a>, or as <a href="https://venturebeat.com/ai/you-can-now-run-the-most-powerful-open-source-ai-models-locally-on-mac-m4-computers-thanks-to-exo-labs/">Exo Labs has shown, a few Mac computers with M4 chips</a> and no discrete GPUs.</p>
+
+
+
+<p>Therefore, if the GPU savings for lower-parameter models holds up in this case, those looking to deploy Meta&#x2019;s most powerful open-source Llama models can expect to save up to nearly 1940 GB worth of GPU memory, or potentially, achieve 24 times reduced GPU load for a standard <a href="https://www.techpowerup.com/gpu-specs/h100-pcie-80-gb.c3899">80 GB Nvidia H100 GPU</a>.</p>
+
+
+
+<p>At an estimated <a href="https://modal.com/blog/nvidia-h100-price-article">&#x24;25,000 per H100 GPU</a>, that&#x2019;s up to &#x24;600,000 in up-front GPU cost savings, potentially &#x2014; not to mention the continuous power costs. </p>
+
+
+
+<h2>A highly performant model in a small form factor</h2>
+
+
+
+<p>According to <a href="https://x.com/AIatMeta/status/1865079067390956006" target="_blank">Meta AI on X</a>, the Llama 3.3 model handedly outperforms the identically sized Llama 3.1-70B as well as <a href="https://venturebeat.com/ai/amazon-launches-nova-ai-model-family-for-generating-text-images-and-videos/" target="_blank">Amazon&#x2019;s new Nova Pro model in several benchmarks</a> such as multilingual dialogue, reasoning, and other advanced natural language processing (NLP) tasks (Nova outperforms it in HumanEval coding tasks).</p>
+
+
+
+<figure><img src="https://venturebeat.com/wp-content/uploads/2024/12/GeIXhxyakAErybT.jpg" alt=""/></figure>
+
+
+
+<p>Llama 3.3 has been pretrained on 15 trillion tokens from &#x201c;publicly available&#x201d; data and fine-tuned on over 25 million synthetically generated examples, according to the information Meta provided in the &#x201c;model card&#x201d; posted on its website.</p>
+
+
+
+<p>Leveraging 39.3 million GPU hours on H100-80GB hardware, the model&#x2019;s development underscores Meta&#x2019;s commitment to energy efficiency and sustainability.</p>
+
+
+
+<p>Llama 3.3 leads in multilingual reasoning tasks with a 91.1% accuracy rate on MGSM, demonstrating its effectiveness in supporting languages such as German, French, Italian, Hindi, Portuguese, Spanish, and Thai, in addition to English.</p>
+
+
+
+<h2>Cost-effective and environmentally conscious</h2>
+
+
+
+<p>Llama 3.3 is specifically optimized for cost-effective inference, with token generation costs as low as &#x24;0.01 per million tokens. </p>
+
+
+
+<p>This makes the model highly competitive against industry counterparts like GPT-4 and Claude 3.5, with greater affordability for developers seeking to deploy sophisticated AI solutions.</p>
+
+
+
+<p>Meta has also emphasized the environmental responsibility of this release. Despite its intensive training process, the company leveraged renewable energy to offset greenhouse gas emissions, resulting in net-zero emissions for the training phase. Location-based emissions totaled 11,390 tons of CO2-equivalent, but Meta&#x2019;s renewable energy initiatives ensured sustainability.</p>
+
+
+
+<h2>Advanced features and deployment options</h2>
+
+
+
+<p>The model introduces several enhancements, including a longer context window of 128k tokens (comparable to GPT-4o, about 400 pages of book text), making it suitable for long-form content generation and other advanced use cases. </p>
+
+
+
+<p>Its architecture incorporates Grouped Query Attention (GQA), improving scalability and performance during inference.</p>
+
+
+
+<p>Designed to align with user preferences for safety and helpfulness, Llama 3.3 uses reinforcement learning with human feedback (RLHF) and supervised fine-tuning (SFT). This alignment ensures robust refusals to inappropriate prompts and an assistant-like behavior optimized for real-world applications.</p>
+
+
+
+<p>Llama 3.3 is already available for download through <a href="https://www.llama.com/docs/model-cards-and-prompt-formats/llama3_3/#introduction" target="_blank">Meta</a>, <a href="https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct/blob/main/README.md#model-information" target="_blank">Hugging Face</a>, <a href="https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/MODEL_CARD.md" target="_blank">GitHub</a>, and other platforms, with integration options for researchers and developers. Meta is also offering resources like Llama Guard 3 and Prompt Guard to help users deploy the model safely and responsibly.</p>
+<div>
+		<div>
+			<div>
+				<div><strong>VB Daily</strong></div>
+				<p>Stay in the know! Get the latest news in your inbox daily</p>
+				
+					
+					
+					
+										Subscribe
+				
+				<p>By subscribing, you agree to VentureBeat&apos;s <a href="/terms-of-service/">Terms of Service.</a></p>
+				<p>
+					Thanks for subscribing. Check out more <a href="/newsletters/">VB newsletters here</a>.
+				</p>
+				<p>An error occured.</p>
+			</div>
+		</div>
+		
+</div>			</div>
+
+---
+
+*This article was originally published on [VentureBeat AI](https://venturebeat.com/ai/meta-launches-open-source-llama-3-3-shrinking-powerful-bigger-model-into-smaller-size/). Visit the source for more information.*

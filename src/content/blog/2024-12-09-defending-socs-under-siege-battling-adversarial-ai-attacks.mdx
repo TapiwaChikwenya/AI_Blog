@@ -1,0 +1,206 @@
+---
+title: "Defending SOCs Under Siege: Battling Adversarial AI Attacks"
+date: "2024-12-09"
+source: "VentureBeat AI"
+sourceUrl: "https://venturebeat.com/security/defending-socs-battling-adversarial-attacks/"
+excerpt: "Join our daily and weekly newsletters for the latest updates and exclusive content on industry-leading AI coverage. Learn More With 77% of enterprises already victimized by adversarial AI attacks and ..."
+---
+
+# Defending SOCs Under Siege: Battling Adversarial AI Attacks
+
+<div class="text-sm text-gray-500 mb-4">
+  Published on December 9, 2024 | Source: [VentureBeat AI](https://venturebeat.com/security/defending-socs-battling-adversarial-attacks/)
+</div>
+
+
+				<div>
+<p><em>Join our daily and weekly newsletters for the latest updates and exclusive content on industry-leading AI coverage. <a href="https://venturebeat.com/newsletters/?utm_source=VBsite&amp;utm_medium=desktopNav">Learn More</a></em></p>
+
+
+
+<hr/>
+</div><p>With <a href="https://hiddenlayer.com/threatreport2024/" target="_blank">77%</a> of enterprises already victimized by adversarial AI attacks and eCrime actors achieving a record breakout time of just <a href="https://www.crowdstrike.com/en-us/global-threat-report/" target="_blank">2 minutes and 7 seconds</a>, the question isn&#x2019;t if your Security Operations Center (SOC) will be targeted &#x2014; it&#x2019;s when.</p>
+
+
+
+<p>As cloud intrusions soared by <a href="https://www.crowdstrike.com/en-us/global-threat-report/">75% in the past</a><a href="https://www.crowdstrike.com/en-us/global-threat-report/" target="_blank"> </a><a href="https://www.crowdstrike.com/en-us/global-threat-report/">year</a>, and <a href="https://higherlogicdownload.s3.amazonaws.com/ISACA/9c800c88-34d8-4fca-8bd2-5d46fd639822/UploadedImages/Audit_of_Machine_Learning_Reslience.pdf" target="_blank">two in five enterprises suffered AI-related security breaches</a>, every SOC leader needs to confront a brutal truth: Your defenses must either evolve as fast as the attackers&#x2019; tradecraft or risk being overrun by relentless, resourceful adversaries who pivot in seconds to succeed with a breach.</p>
+
+
+
+<div/><p>Combining generative AI (gen AI), social engineering, interactive intrusion campaigns and an all-out assault on cloud vulnerabilities and identities, attackers are executing a playbook that seeks to capitalize on every SOC weakness they can find. <a href="https://www.crowdstrike.com/en-us/global-threat-report/" target="_blank">CrowdStrike&#x2019;s 2024 Global Threat Report</a> finds that nation-state attackers are taking identity-based and social engineering attacks to a new level of intensity. Nation-states have long used machine learning to craft phishing and social engineering campaigns. Now, the focus is on pirating authentication tools and systems including API keys and one-time passwords (OTPs).</p>
+
+
+
+<p>&#x201c;What we&#x2019;re seeing is that the threat actors have really been focused on&#x2026;taking a legitimate identity. Logging in as a legitimate user. And then laying low, staying under the radar by living off the land by using legitimate tools,&#x201d; Adam Meyers, senior vice president counter adversary operations at CrowdStrike, told VentureBeat during a recent briefing.&#xa0;</p>
+
+
+
+<p>Cybercrime gangs and nation-state cyberwar teams continue sharpening their tradecraft to launch AI-based attacks aimed at undermining the foundation of identity and access management (IAM) trust. By exploiting fake identities generated through deepfake voice, image and video data, these attacks aim to breach IAM systems and create chaos in a targeted organization.</p>
+
+
+
+<p>The <a href="https://www.gartner.com/document-reader/document/5823247?ref=solrResearch&amp;refval=442710420" target="_blank">Gartner</a> figure below shows why SOC teams need to be prepared now for adversarial AI attacks, which most often take the form of fake identity attacks.</p>
+
+
+
+<figure><img src="https://venturebeat.com/wp-content/uploads/2024/12/Figure_1_GenAI-Borne_Attack_on_the_IAM_Trust_Foundation.png?w=800" alt=""/></figure>
+
+
+
+<p>Source: Gartner 2025 Planning Guide for Identity and Access Management. Published on October 14, 2024. Document ID: G00815708.</p>
+
+
+
+<h2><strong>Scoping the adversarial AI threat landscape going into 2025</strong></h2>
+
+
+
+<p>&#x201c;As gen AI continues to evolve, so must the understanding of its implications for <a href="https://venturebeat.com/category/security/">cybersecurity</a>,&#x201d;&#xa0; Bob Grazioli, CIO and senior vice president of <a href="https://www.ivanti.com/" target="_blank">Ivanti</a>, recently told VentureBeat.</p>
+
+
+
+<p>&#x201c;Undoubtedly, gen AI equips cybersecurity professionals with powerful tools, but it also provides attackers with advanced capabilities. To counter this, new strategies are needed to prevent malicious AI from becoming a dominant threat. This report helps equip organizations with the insights needed to stay ahead of advanced threats and safeguard their digital assets effectively,&#x201d; Grazioli said.</p>
+
+
+
+<p>A recent Gartner survey revealed that <a href="https://venturebeat.com/ai/new-gartner-survey-only-half-of-ai-models-make-it-into-production/?utm_source=chatgpt.com">73%</a> of enterprises have hundreds or thousands of AI models deployed, while 41% reported AI-related security incidents. According to <a href="https://hiddenlayer.com/threatreport2024/" target="_blank">HiddenLayer</a>, seven in 10 companies have experienced AI-related breaches, with 60% linked to insider threats and 27% involving external attacks targeting AI infrastructure.</p>
+
+
+
+<p>Nir Zuk, CTO of <a href="https://www.paloaltonetworks.com/" target="_blank">Palo Alto Networks</a>, framed it starkly in an <a href="https://venturebeat.com/security/palo-alto-networks-cto-on-why-machine-learning-is-revolutionizing-soc-performance/&apos;">interview with VentureBeat</a> earlier this year: Machine learning assumes adversaries are already inside, and this demands real-time responsiveness to stealthy attacks.</p>
+
+
+
+<p>Researchers at <a href="https://www.cmu.edu/" target="_blank">Carnegie Mellon University</a> recently published &#x201c;<a href="https://arxiv.org/abs/2406.12934" target="_blank">Current State of LLM Risks and AI Guardrails</a>,&#x201d; a paper that explains the vulnerabilities of large language models (LLMs) in critical applications. It highlights risks such as bias, data poisoning and non-reproducibility. With security leaders and SOC teams increasingly collaborating on new model safety measures, the guidelines advocated by these researchers need to be part of SOC teams&#x2019; training and ongoing development. These guidelines include deploying layered protection models that integrate retrieval-augmented generation (RAG) and situational awareness tools to counter adversarial exploitation.</p>
+
+
+
+<p>SOC teams also carry the support burden for new gen AI applications, including the rapidly growing use of agentic AI. Researchers from the <a href="https://www.ucdavis.edu/" target="_blank">University of California, Davis</a> recently published &#x201c;<a href="https://arxiv.org/html/2406.08689v2" target="_blank">Security of AI Agents</a>,&#x201d; a study examining the security challenges SOC teams face as AI agents execute real-world tasks. Threats including data integrity breaches and model pollution, where adversarial inputs may compromise the agent&#x2019;s decisions and actions, are deconstructed and analyzed. To counter these risks, the researchers propose defenses such as having SOC teams initiate and manage sandboxing &#x2014; limiting the agent&#x2019;s operational scope &#x2014; and encrypted workflows that protect sensitive interactions, creating a controlled environment to contain potential exploits.</p>
+
+
+
+<h2><strong>Why SOCs are targets of adversarial AI</strong></h2>
+
+
+
+<p>Dealing with alert fatigue, turnover of key staff, incomplete and inconsistent data on threats, and systems designed to protect perimeters and not identities, SOC teams are at a disadvantage against attackers&#x2019; growing AI arsenals.</p>
+
+
+
+<p>SOC leaders in financial services, insurance and manufacturing tell VentureBeat, under the condition of anonymity, that their companies are under siege, with a high number of high-risk alerts coming in every day.</p>
+
+
+
+<p>The techniques below focus on ways AI models can be compromised such that, once breached, they provide sensitive data and can be used to pivot to other systems and assets within the enterprise. Attackers&#x2019; tactics focus on establishing a foothold that leads to deeper network penetration.</p>
+
+
+
+<ul>
+<li><strong>Data Poisoning: </strong>Attackers introduce malicious data into a model&#x2019;s training set to degrade performance or control predictions. According to a Gartner report from 2023, nearly 30% of AI-enabled organizations, particularly those in finance and healthcare, have experienced such attacks. Backdoor attacks embed specific triggers in training data, causing models to behave incorrectly when these triggers appear in real-world inputs. A 2023 <a href="https://www.csail.mit.edu/news/global-ai-adoption-outpacing-risk-understanding-warns-mit-csail" target="_blank">MIT study</a> highlights the growing risk of such attacks as AI adoption grows, making defense strategies such as adversarial training increasingly important.</li>
+</ul>
+
+
+
+<ul>
+<li><strong>Evasion Attacks: </strong>These attacks alter input data in order to mispredict. Slight image distortions can confuse models into misclassifying objects. A popular evasion method, the Fast Gradient Sign Method (FGSM), uses adversarial noise to trick models. Evasion attacks in the autonomous vehicle industry have caused safety concerns, with altered stop signs misinterpreted as yield signs. A 2019 study found that a small sticker on a stop sign misled a self-driving car into thinking it was a speed limit sign. <a href="https://keenlab.tencent.com/en/whitepapers/Experimental_Security_Research_of_Tesla_Autopilot.pdf?utm_campaign=the_algorithm.unpaid.engagement&amp;utm_source=hs_email&amp;utm_medium=email&amp;utm_content=71373464&amp;_hsenc=p2ANqtz--JBcpulYc-GW10QtUBBH_VTXHIiaAgdM-w3SdhQ1uop_m2MwFNQK8b-uDQ6hEgwH-08IpeSACOY432EYgtoku-uYAOZA&amp;_hsmi=71373464">Tencent&#x2019;s Keen Security Lab</a> used road stickers to trick a Tesla Model S&#x2019;s autopilot system. These stickers steered the car into the wrong lane, showing how small, carefully crafted input changes can be dangerous. Adversarial attacks on critical systems like autonomous vehicles are real-world threats.</li>
+</ul>
+
+
+
+<ul>
+<li><strong>Exploiting API vulnerabilities:</strong> Model-stealing and other adversarial attacks are highly effective against public APIs and are essential for obtaining AI model outputs. Many businesses are susceptible to exploitation because they lack strong API security, as was mentioned at BlackHat 2022. Vendors, including Checkmarx and Traceable AI, are automating API discovery and ending malicious bots to mitigate these risks. API security must be strengthened to preserve the integrity of AI models and safeguard sensitive data.</li>
+</ul>
+
+
+
+<ul>
+<li><strong>Model Integrity and Adversarial Training: </strong>Without adversarial training, machine learning models can be manipulated. However, researchers say that while adversarial training improves robustness it requires longer training times and may trade accuracy for resilience. Although flawed, it is an essential defense against adversarial attacks. Researchers have also found that poor machine identity management in hybrid cloud environments increases the risk of adversarial attacks on machine learning models.</li>
+</ul>
+
+
+
+<ul>
+<li><strong>Model Inversion: </strong>This type of attack allows adversaries to infer sensitive data from a model&#x2019;s outputs, posing significant risks when trained on confidential data like health or financial records. Hackers query the model and use the responses to reverse-engineer training data. In 2023, <a href="https://www.gartner.com/document/code/773522" target="_blank">Gartner warned</a>, &#x201c;The misuse of model inversion can lead to significant privacy violations, especially in healthcare and financial sectors, where adversaries can extract patient or customer information from AI systems.&#x201d;</li>
+</ul>
+
+
+
+<ul>
+<li><strong>Model Stealing: </strong>Repeated API queries can be used to replicate model functionality. These queries help the attacker create a surrogate model that behaves like the original. AI Security <a href="https://www.bleepingcomputer.com/news/security/researchers-find-you-can-trick-self-driving-cars-by-defacing-street-signs/" target="_blank">states</a>, &#x201c;AI models are often targeted through API queries to reverse-engineer their functionality, posing significant risks to proprietary systems, especially in sectors like finance, healthcare and autonomous vehicles.&#x201d; These attacks are increasing as AI is used more, raising concerns about IP and trade secrets in AI models.</li>
+</ul>
+
+
+
+<h2><strong>Reinforcing SOC defenses through AI model hardening and supply chain security</strong></h2>
+
+
+
+<p>SOC teams need to think holistically about how a seemingly isolated breach of AL/ML models could quickly escalate into an enterprise-wide cyberattack. SOC leaders need to take the initiative and identify which security and risk management frameworks are the most complementary to their company&#x2019;s business model. Great starting points are the <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank">NIST AI Risk Management Framework</a> and the <a href="https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook" target="_blank">NIST AI Risk Management Framework and Playbook</a>.</p>
+
+
+
+<p>VentureBeat is seeing that the following steps are delivering results by reinforcing defenses while also enhancing model reliability &#x2014; two critical steps to securing a company&#x2019;s infrastructure against adversarial AI attacks:</p>
+
+
+
+<p><strong>Commit to continually hardening model architectures. </strong>Deploy gatekeeper layers to filter out malicious prompts and tie models to verified data sources. Address potential weak points at the pretraining stage so your models withstand even the most advanced adversarial tactics.</p>
+
+
+
+<p><strong>Never stop strengthing data integrity and provenance: </strong>Never assume all data is trustworthy. Validate its origins, quality and integrity through rigorous checks and adversarial input testing. By ensuring only clean, reliable data enters the pipeline, SOCs can do their part to maintain the accuracy and credibility of outputs.</p>
+
+
+
+<p><strong>Integrate adversarial validation and red-teaming:</strong> Don&#x2019;t wait for attackers to find your blind spots. Continually pressure-test models against known and emerging threats. Use red teams to uncover hidden vulnerabilities, challenge assumptions and drive immediate remediation &#x2014; ensuring defenses evolve in lockstep with attacker strategies.</p>
+
+
+
+<p><strong>Enhance threat intelligence integration: </strong>SOC leaders need to support devops teams and help keep models in sync with current risks. SOC leaders need to provide devops teams with a steady stream of updated threat intelligence and simulate real-world attacker tactics using red-teaming.</p>
+
+
+
+<p><strong>Increase and keep enforcing supply chain transparency:</strong> Identify and neutralize threats before they take root in codebases or pipelines. Regularly audit repositories, dependencies and CI/CD workflows. Treat every component as a potential risk, and use red-teaming to expose hidden gaps &#x2014; fostering a secure, transparent supply chain.</p>
+
+
+
+<p><strong>Employ privacy-preserving techniques and secure collaboration:</strong> Leverage techniques like federated learning and homomorphic encryption to let stakeholders contribute without revealing confidential information. This approach broadens AI expertise without increasing exposure.</p>
+
+
+
+<p><strong>Implement session management, sandboxing, and zero trust starting with microsegmentation:</strong> Lock down access and movement across your network by segmenting sessions, isolating risky operations in sandboxed environments and strictly enforcing zero-trust principles. Under zero trust, no user, device or process is inherently trusted without verification. These measures curb lateral movement, containing threats at their point of origin. They safeguard system integrity, availability and confidentiality. In general, they have proven effective in stopping advanced adversarial AI attacks.</p>
+
+
+
+<h2><strong>Conclusion </strong></h2>
+
+
+
+<p>&#x201c;CISO and CIO alignment will be critical in 2025,&#x201d; Grazioli told VentureBeat. &#x201c;Executives need to consolidate resources &#x2014; budgets, personnel, data and technology &#x2014; to enhance an organization&#x2019;s security posture. A lack of data accessibility and visibility undermines AI investments. To address this, data silos between departments such as the CIO and CISO must be eliminated.&#x201d;</p>
+
+
+
+<p>&#x201c;In the coming year, we will need to view AI as an employee rather than a tool,&#x201d; Grazioli noted. &#x201c;For instance, prompt engineers must now anticipate the types of questions that would typically be asked of AI, highlighting how ingrained AI has become in everyday business activities. To ensure accuracy, AI will need to be trained and evaluated just like any other employee.&#x201d;</p>
+<div>
+		<div>
+			<div>
+				<div><strong>VB Daily</strong></div>
+				<p>Stay in the know! Get the latest news in your inbox daily</p>
+				
+					
+					
+					
+										Subscribe
+				
+				<p>By subscribing, you agree to VentureBeat&apos;s <a href="/terms-of-service/">Terms of Service.</a></p>
+				<p>
+					Thanks for subscribing. Check out more <a href="/newsletters/">VB newsletters here</a>.
+				</p>
+				<p>An error occured.</p>
+			</div>
+		</div>
+		
+</div>			</div>
+
+---
+
+*This article was originally published on [VentureBeat AI](https://venturebeat.com/security/defending-socs-battling-adversarial-attacks/). Visit the source for more information.*

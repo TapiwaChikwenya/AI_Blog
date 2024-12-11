@@ -1,0 +1,118 @@
+---
+title: "ServiceNow open sources Fast-LLM in a bid to help enterprises train AI models 20% quicker"
+date: "2024-12-10"
+source: "VentureBeat AI"
+sourceUrl: "https://venturebeat.com/ai/servicenow-open-sources-fast-llm-in-a-bid-to-help-enterprises-train-ai-models-20x-quicker/"
+excerpt: "Join our daily and weekly newsletters for the latest updates and exclusive content on industry-leading AI coverage. Learn More Training a large language model (LLM) is among the most costly and time c..."
+---
+
+# ServiceNow open sources Fast-LLM in a bid to help enterprises train AI models 20% quicker
+
+<div class="text-sm text-gray-500 mb-4">
+  Published on December 10, 2024 | Source: [VentureBeat AI](https://venturebeat.com/ai/servicenow-open-sources-fast-llm-in-a-bid-to-help-enterprises-train-ai-models-20x-quicker/)
+</div>
+
+
+				<div>
+<p><em>Join our daily and weekly newsletters for the latest updates and exclusive content on industry-leading AI coverage. <a href="https://venturebeat.com/newsletters/?utm_source=VBsite&amp;utm_medium=desktopNav">Learn More</a></em></p>
+
+
+
+<hr/>
+</div><p>Training a large language model (LLM) is among the most costly and time consuming exercises for enterprises. A new open-source model being released today by <a href="https://www.servicenow.com/" target="_blank">ServiceNow</a> could make a big difference, with the promise of training 20% faster, saving enterprises time and money.</p>
+
+
+
+<p>The Fast-LLM technology has already been in development inside the company, helping ServiceNow to accelerate its own LLM training efforts. Fast-LLM helped train ServiceNow&#x2019;s <a href="https://venturebeat.com/ai/nvidia-hugging-face-and-servicenow-release-new-starcoder2-llms-for-code-generation/">StarCoder 2 LLM</a>, which the company released earlier this year. <a href="https://venturebeat.com/ai/hugging-face-and-servicenow-open-up-generative-ai-for-coding-with-starcoder/">StarCoder</a> itself is an open source effort, as well, which benefits from the contributions of Hugging Face, Nvidia and others. ServiceNow also uses Fast-LLM for large, trillion-token continuous pre-training from existing models, as well as for fine-tuning jobs.</p>
+
+
+
+<div/><p>Because it is an open source technology, anyone can use Fast-LLM to help accelerate AI training, including fine tuning operations. The intent is that it can be a drop-in replacement to an existing AI training pipeline with minimal configuration changes. The new open source project aims to differentiate against commonly used AI training frameworks, including the <a href="https://venturebeat.com/ai/pytorch-2-0-brings-new-fire-to-open-source-machine-learning/">open-source PyTorch</a>, with a series of innovations for data parallelism and memory management.</p>
+
+
+
+<p>&#x201c;When you&#x2019;re dealing with compute clusters that cost hundreds of millions and training runs that cost millions of dollars, 20% can be a huge saving in terms of both dollars and time and the overall CO2 footprint,&#x201d; Nicolas Chapados, VP of research at ServiceNow, told VentureBeat.</p>
+
+
+
+<h2>The innovations that enable Fast-LLM to accelerate AI training</h2>
+
+
+
+<p>The AI industry well understands the challenge of training AI more efficiently. <a href="https://venturebeat.com/ai/will-the-cost-of-scaling-infrastructure-limit-ais-potential/">VentureBeat Transform 2024</a> featured a panel that discussed that very issue, detailing options for scaling infrastructure.</p>
+
+
+
+<p>The Fast-LLM approach isn&#x2019;t about scaling infrastructure; it&#x2019;s about optimizing the efficiency of existing training resources.</p>
+
+
+
+<p>&#x201c;We carefully looked at all the operations needed to train large language models, especially transformer based large language models,&#x201d; Chapados explained. &#x201c;We carefully optimize both the way in which the compute is distributed to the individual cores within the GPU, as well as how the memory is being used by the models themselves.&#x201d;</p>
+
+
+
+<p>Fast-LLM&#x2019;s competitive advantage stems from two primary innovations that help to differentiate it. The first is Fast-LLM&#x2019;s approach to computation ordering, which defines the order in which computations occur in an AI training run. Chapados explained that Fast-LLM uses a new technique that ServiceNow calls&#xa0;&#x201c;Breadth-First Pipeline Parallelism.&#x201d;</p>
+
+
+
+<p>&#x201c;This is the fundamental scientific innovation around the way that compute is scheduled, both inside a single GPU and across multiple GPUs,&#x201d; said Chapados.</p>
+
+
+
+<p>The second major innovation addresses memory management. In large training operations, memory fragments over time. This means memory becomes broken into pieces over time as training progresses. The fragmentation creates memory inefficiency, preventing training clusters from using all available memory properly.</p>
+
+
+
+<p>&#x201c;We&#x2019;ve been very careful in the way that we design Fast LLM to almost completely eliminate the problem of memory fragmentation when training those large language models,&#x201d; said Chapados.</p>
+
+
+
+<h2>How enterprises can use Fast-LLM today to accelerate training&#xa0;</h2>
+
+
+
+<p>The Fast-LLM framework is designed to be accessible while maintaining enterprise-grade capabilities. It functions as a drop-in replacement for PyTorch environments and integrates with existing distributed training setups.&#xa0;</p>
+
+
+
+<p>&#x201c;For any model developer or any researcher, it&#x2019;s just a simple configuration file that lets you specify all the architectural details that matter,&#x201d; said Chapados .</p>
+
+
+
+<p>Running training operations faster has multiple benefits and can allow enterprises to experiment more.</p>
+
+
+
+<p>&#x201c;It makes the risk of large training runs smaller,&#x201d; said Chapados. &#x201c;It equips users, researchers and model builders with a bit more ambition to train larger runs, because they will not be afraid that it will cost so much anymore.&#x201d;</p>
+
+
+
+<p>Looking forward, the expectation is that as an open source project, Fast-LLM will be able to expand faster, benefiting from external contributions. ServiceNow has already been successful with that approach with StarCoder.</p>
+
+
+
+<p>&#x201c;Our goal is really to be very, very transparent and responsive to the community contributions in terms of the use of this framework,&#x201d; said Chapados.&#x201d; We&#x2019;re still getting early feedback about what people like, what they are able to do with it and our goal is really to scale this.&#x201d;</p>
+<div>
+		<div>
+			<div>
+				<div><strong>VB Daily</strong></div>
+				<p>Stay in the know! Get the latest news in your inbox daily</p>
+				
+					
+					
+					
+										Subscribe
+				
+				<p>By subscribing, you agree to VentureBeat&apos;s <a href="/terms-of-service/">Terms of Service.</a></p>
+				<p>
+					Thanks for subscribing. Check out more <a href="/newsletters/">VB newsletters here</a>.
+				</p>
+				<p>An error occured.</p>
+			</div>
+		</div>
+		
+</div>			</div>
+
+---
+
+*This article was originally published on [VentureBeat AI](https://venturebeat.com/ai/servicenow-open-sources-fast-llm-in-a-bid-to-help-enterprises-train-ai-models-20x-quicker/). Visit the source for more information.*

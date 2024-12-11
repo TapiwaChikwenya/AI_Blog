@@ -26,6 +26,7 @@
     "date-fns": "^3.3.1",
     "express": "^4.21.1",
     "jsonwebtoken": "^9.0.0",
+    "lru-cache": "^11.0.2",
     "node-cron": "^3.0.3",
     "node-fetch": "^3.3.2",
     "rss-parser": "^3.13.0",

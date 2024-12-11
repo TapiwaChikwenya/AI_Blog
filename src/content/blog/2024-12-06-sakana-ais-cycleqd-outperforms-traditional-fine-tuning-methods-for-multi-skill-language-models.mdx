@@ -1,0 +1,132 @@
+---
+title: "Sakana AI’s CycleQD outperforms traditional fine-tuning methods for multi-skill language models"
+date: "2024-12-06"
+source: "VentureBeat AI"
+sourceUrl: "https://venturebeat.com/ai/sakana-ais-cycleqd-outperforms-traditional-fine-tuning-methods-for-multi-skill-language-models/"
+excerpt: "Join our daily and weekly newsletters for the latest updates and exclusive content on industry-leading AI coverage. Learn More Researchers at Sakana AI have developed a resource-efficient framework th..."
+---
+
+# Sakana AI’s CycleQD outperforms traditional fine-tuning methods for multi-skill language models
+
+<div class="text-sm text-gray-500 mb-4">
+  Published on December 6, 2024 | Source: [VentureBeat AI](https://venturebeat.com/ai/sakana-ais-cycleqd-outperforms-traditional-fine-tuning-methods-for-multi-skill-language-models/)
+</div>
+
+
+				<div>
+<p><em>Join our daily and weekly newsletters for the latest updates and exclusive content on industry-leading AI coverage. <a href="https://venturebeat.com/newsletters/?utm_source=VBsite&amp;utm_medium=desktopNav">Learn More</a></em></p>
+
+
+
+<hr/>
+</div><p>Researchers at <a href="https://sakana.ai/" target="_blank">Sakana AI</a> have developed a resource-efficient framework that can create hundreds of language models specializing in different tasks. Called <a href="https://sakana.ai/cycleqd/" target="_blank">CycleQD</a>, the technique uses evolutionary algorithms to combine the skills of different models without the need for expensive and slow training processes.</p>
+
+
+
+<p>CycleQD can create swarms of task-specific agents that offer a more sustainable alternative to the current paradigm of increasing model size.</p>
+
+
+
+<div/><h2>Rethinking model training</h2>
+
+
+
+<p><a href="https://venturebeat.com/ai/meta-launches-open-source-llama-3-3-shrinking-powerful-bigger-model-into-smaller-size/">Large language models</a> (LLMs) have shown remarkable capabilities in various tasks. However, training LLMs to master multiple skills remains a challenge. When fine-tuning models, engineers must balance data from different skills and ensure that one skill doesn&#x2019;t dominate the others. Current approaches often involve training ever-larger models, which leads to increasing computational demands and resource requirements.</p>
+
+
+
+<p>&#x201c;We believe rather than aiming to develop a single large model to perform well on all tasks, population-based approaches to evolve a diverse swarm of niche models may offer an alternative, more sustainable path to scaling up the development of AI agents with advanced capabilities,&#x201d; the Sakana researchers write in a blog post.</p>
+
+
+
+<p>To create <a href="https://venturebeat.com/ai/openai-launches-full-o1-model-with-34-reduced-error-rate-debuts-chatgpt-pro/">populations of models</a>, the researchers took inspiration from quality diversity (QD), an evolutionary computing paradigm that focuses on discovering a diverse set of solutions from an initial population sample. QD aims at creating specimens with various &#x201c;behavior characteristics&#x201d; (BCs), which represent different skill domains. It achieves this through evolutionary algorithms (EA) that select parent examples and use crossover and mutation operations to create new samples.</p>
+
+
+<div>
+<figure><img src="https://venturebeat.com/wp-content/uploads/2024/12/cycleqd_schematic.png?w=800" alt="Quality Diversity"/><figcaption>Quality Diversity (source: Sakana AI)</figcaption></figure></div>
+
+
+<h2>CycleQD</h2>
+
+
+
+<p>CycleQD incorporates QD into the post-training pipeline of LLMs to help them learn new, complex skills. CycleQD is useful when you have multiple small models that have been fine-tuned for very specific skills, such as coding or performing <a href="https://venturebeat.com/data-infrastructure/aws-cuts-database-prices-almost-50-and-adds-distributed-scaling-capabilities/">database and operating system</a> operations, and you want to create new variants that have different combinations of those skills.</p>
+
+
+
+<p>In the CycleQD framework, each of these skills is considered a behavior characteristic or a quality that the next generation of models is optimized for. In each generation, the algorithm focuses on one specific skill as its quality metric while using the other skills as BCs.</p>
+
+
+
+<p>&#x201c;This ensures every skill gets its moment in the spotlight, allowing the LLMs to grow more balanced and capable overall,&#x201d; the researchers explain.</p>
+
+
+<div>
+<figure><img src="https://venturebeat.com/wp-content/uploads/2024/12/cycleqd_main.png?w=738" alt="CycleQD "/><figcaption><em>CycleQD (source: Sakana AI)</em></figcaption></figure></div>
+
+
+<p>CycleQD starts with a set of expert LLMs, each specialized in a single skill. The algorithm then applies &#x201c;crossover&#x201d; and &#x201c;mutation&#x201d; operations to add new higher-quality models to the population. Crossover combines the characteristics of two parent models to create a new model while mutation makes random changes to the model to explore new possibilities.</p>
+
+
+
+<p>The crossover operation is based on <a href="https://venturebeat.com/ai/sakana-ais-evolutionary-algorithm-discovers-new-architectures-for-generative-models/">model merging</a>, a technique that combines the parameters of two LLMs to create a new model with combined skills. This is a cost-effective and quick method for developing well-rounded models without the need to fine-tune them.</p>
+
+
+
+<p>The mutation operation uses <a href="https://en.wikipedia.org/wiki/Singular_value_decomposition" target="_blank">singular value decomposition</a> (SVD), a factorization method that breaks down any matrix into simpler components, making it easier to understand and manipulate its elements. CycleQD uses SVD to break down the model&#x2019;s skills into fundamental components or sub-skills. By tweaking these sub-skills, the mutation process creates models that explore new capabilities beyond those of their parent models. This helps the models avoid getting stuck in predictable patterns and reduces the risk of overfitting.</p>
+
+
+
+<h2>Evaluating CycleQD&#x2019;s performance</h2>
+
+
+
+<p>The researchers applied CycleQD to a set of <a href="https://venturebeat.com/ai/llama-3-launches-alongside-new-stand-alone-meta-ai-chatbot/">Llama 3-8B</a> expert models fine-tuned for coding, database operations and operating system operations. The goal was to see if the evolutionary method could combine the skills of the three models to create a superior model.</p>
+
+
+
+<p>The results showed that CycleQD outperformed traditional fine-tuning and model merging methods across the evaluated tasks. Notably, a model fine-tuned on all datasets combined performed only marginally better than the single-skill expert models, despite being trained on more data. Moreover, the traditional training process is much slower and more expensive. CycleQD was also able to create various models with different performance levels on the target tasks.</p>
+
+
+
+<p>&#x201c;These results clearly show that CycleQD outperforms traditional methods, proving its effectiveness in training LLMs to excel across multiple skills,&#x201d; the researchers write.</p>
+
+
+
+<figure><img src="https://venturebeat.com/wp-content/uploads/2024/12/cycleqd_table.png?w=800" alt="CycleQD vs other methods"/><figcaption><em>CycleQD vs other fine-tuning methods (source: Sakana AI)</em></figcaption></figure>
+
+
+
+<p>The researchers believe that CycleQD has the potential to enable lifelong learning in AI systems, allowing them to continuously grow, adapt and accumulate knowledge over time. This can have direct implications for real-world applications. For example, CycleQD can be used to continuously merge the skills of expert models instead of training a large model from scratch.</p>
+
+
+
+<p>Another exciting direction is the development of multi-agent systems, where swarms of specialized agents evolved through CycleQD can collaborate, compete and learn from one another.&#xa0;</p>
+
+
+
+<p>&#x201c;From scientific discovery to real-world problem-solving, swarms of specialized agents could redefine the limits of AI,&#x201d; the researchers write.</p>
+<div>
+		<div>
+			<div>
+				<div><strong>VB Daily</strong></div>
+				<p>Stay in the know! Get the latest news in your inbox daily</p>
+				
+					
+					
+					
+										Subscribe
+				
+				<p>By subscribing, you agree to VentureBeat&apos;s <a href="/terms-of-service/">Terms of Service.</a></p>
+				<p>
+					Thanks for subscribing. Check out more <a href="/newsletters/">VB newsletters here</a>.
+				</p>
+				<p>An error occured.</p>
+			</div>
+		</div>
+		
+</div>			</div>
+
+---
+
+*This article was originally published on [VentureBeat AI](https://venturebeat.com/ai/sakana-ais-cycleqd-outperforms-traditional-fine-tuning-methods-for-multi-skill-language-models/). Visit the source for more information.*

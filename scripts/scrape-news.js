@@ -196,28 +196,52 @@ function cleanExcerpt(excerpt) {
 }
 
 function sanitizeAndFixHTML(html) {
-  // First use cheerio to parse and clean the HTML
-  const $ = cheerio.load(html, {
-    xmlMode: true,
+  // First use sanitize-html to clean the HTML
+  const sanitized = sanitizeHtml(html, {
+    allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img', 'div', 'p']),
+    allowedAttributes: {
+      ...sanitizeHtml.defaults.allowedAttributes,
+      img: ['src', 'alt']
+    },
+    // Add parser options to handle malformed HTML
+    parser: {
+      lowerCaseTags: true,
+      lowerCaseAttributeNames: true,
+      decodeEntities: true
+    }
+  });
+
+  // Then use cheerio to parse and further clean the HTML
+  const $ = cheerio.load(sanitized, {
+    xmlMode: false,
     decodeEntities: true
   });
-  
-  // Get the cleaned HTML
-  let cleanedHtml = $.html();
-  
-  // Remove any empty div tags
-  cleanedHtml = cleanedHtml.replace(/<div>\s*<\/div>/g, '');
-  
-  // Ensure all divs are properly closed
-  const openDivs = (cleanedHtml.match(/<div/g) || []).length;
-  const closeDivs = (cleanedHtml.match(/<\/div>/g) || []).length;
-  
-  // Add missing closing tags if needed
-  if (openDivs > closeDivs) {
-    cleanedHtml += '</div>'.repeat(openDivs - closeDivs);
-  }
-  
-  return cleanedHtml;
+
+  // Remove any empty elements
+  $('*').each(function() {
+    if ($(this).text().trim() === '' && !$(this).children().length && !$(this).is('img')) {
+      $(this).remove();
+    }
+  });
+
+  // Ensure all paragraphs are properly wrapped
+  $('p').each(function() {
+    if (!$(this).parent().is('div')) {
+      $(this).wrap('<div></div>');
+    }
+  });
+
+  // Get the cleaned HTML and ensure it's properly formatted
+  return $.html()
+    // Remove any standalone tags
+    .replace(/<([^/>]+)\/>/g, '')
+    // Remove empty divs
+    .replace(/<div>\s*<\/div>/g, '')
+    // Clean up excessive whitespace
+    .replace(/\s+/g, ' ')
+    // Ensure all tags are properly closed
+    .replace(/<([^/][^>]*[^/])>(?![^<]*<\/\1>)/g, '<$1></$1>')
+    .trim();
 }
 
 async function main() {
